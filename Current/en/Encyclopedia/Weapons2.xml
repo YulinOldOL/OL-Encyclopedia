@@ -876,7 +876,7 @@
    <nlkx/>
    <text> +10 Magic damage.</text>
    <nlkx/>
-   <text> Required Nexus to use: Human 6</text>
+   <text> Required Nexus to use: Human 4</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -895,7 +895,7 @@
    <nl/>
    <text> Stackable: No</text>
    <nl/>
-   <text> Weight: 2 EMU</text>
+   <text> Weight: 4 EMU</text>
    <nl/><nl/>
    <color>yellow</color>
    <text>               </text><link ref="Ench_Weapons" title="Back To Enchanted Weapons Index"/>
@@ -912,13 +912,13 @@
    <text>     Titanium Serpent Sword of Thermal</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="1" name="textures/items9.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Inflicts 20-28 damage, +5 Defense, +5 Accuracy,</text>
+   <text> Inflicts 22-28 damage, +5 Defense, +5 Accuracy,</text>
    <nlkx/>
    <text> +5 Critical to hit, +6 Critical to damage,</text>
    <nlkx/>
-   <text> +10 Fire damage, +10 Cold damage.</text>
+   <text> +5 Fire damage, +5 Cold damage.</text>
    <nlkx/>
-   <text> Required Nexus to use: Human 7</text>
+   <text> Required Nexus to use: Human 4</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -937,7 +937,7 @@
    <nl/>
    <text> Stackable: No</text>
    <nl/>
-   <text> Weight: 2 EMU</text>
+   <text> Weight: 4 EMU</text>
    <nl/><nl/>
    <color>yellow</color>
    <text>               </text><link ref="Ench_Weapons" title="Back To Enchanted Weapons Index"/>
