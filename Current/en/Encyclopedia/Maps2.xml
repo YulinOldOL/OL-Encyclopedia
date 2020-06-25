@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version last updated on 03-Jan-2018, release version-->
+<!-- Spelling corrections in various DL Maps -->
+<Maps2>
+<Page name="Maps2_RI">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+  <text>             Raven's Isle (RI)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl04.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Raven's Isle is a large island, </text><nlkx/>
+   <text> reachable from Glingor by boat.</text><nlkx/>
+   <text> </text><nlkx/> 
+   <color r="0.9" g="0.9" b="0.9"/>
+   <nl/><nl/><text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Glingor (boat)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_LD">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>               Lothend (LD)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Lothend is the entrance to the Dwarven Lands, </text><nlkx/>
+   <text> with connections to Whitestone and Glingor by </text><nlkx/>
+   <text> boat and land connections to Thalendale (N), </text><nlkx/>
+   <text> Braigor (E) and Aldath (W). In the north is </text><nl/>
+   <text> a goldmine.</text><nl/>
+   <nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: No</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Whitestone (boat)</text><nlkx/>
+   <text>Glingor (boat)</text><nlkx/>
+   <text>Thalendale</text><nlkx/>
+   <text>Braigor</text><nlkx/>
+   <text>Aldath</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_BG">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                 Braigor (BG)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Braigor lies south of the Thunder Mountains.</text><nlkx/>       <nl/>
+   <color r="0.9" g="0.9" b="0.9"/><nl/><nl/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Lothend (W)</text><nlkx/>
+   <text>Thunder Mountains (N)</text><nlkx/>
+   <text>Morog (E)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_TH">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                Thalendale (TH)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Thalendale is a grassy map with a small settlement </text><nlkx/>
+   <text> in the south.</text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Lothend (S)</text><nlkx/>
+   <text>Alkh-Endune (W) </text><nlkx/>
+   <text>Zerimor (E)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_RL">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                  Rhoelind</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Rhoelind is an area in the east of the dwarven land</text><nlkx/>
+   <text> with several caves.</text><nlkx/>
+   <nl/><nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Glingor (boat)</text><nlkx/>
+   <text>Drakensbane</text><nlkx/>
+   <text>Morog</text><nlkx/>
+   <text>Valunde (cave)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_AE">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>             Alkh-Endune (AE)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Alkh-Endune is an area in the North-West of the </text><nlkx/>
+   <text> dwarven lands. </text><nlkx/>    <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Aldath (S)</text><nlkx/>
+   <text>Thunder Mountain (SE)</text><nlkx/>
+   <text>Thalendal (E)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_ZM">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>    	          Zerimor (ZM)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Zerimor lies north of the Thunder Mountains.</text><nlkx/>
+   <nl/><nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Thalendale (W)</text><nlkx/>
+   <text>Thunder Mountain (S)</text><nlkx/>
+   <text>Drakensbane (E)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_DB">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>              Drakensbane (DB)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Drakensbane ...</text><nlkx/>    <nl/><nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Zerimor (W)</text><nlkx/>
+   <text>Thunder Mountain (SW)</text><nlkx/>
+   <text>Morog (S)</text><nlkx/>
+   <text>Rhoelind (E)</text><nlkx/>
+   <text>Valunde (NE)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_GL">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                   Glingor</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Glingor has a harbor town but not a lot of other</text><nlkx/>
+   <text> dwellings. To the north it connects to Valunde via</text><nlkx/>
+   <text> a cave.</text><nlkx/>    <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Dwarvern dwellings are found on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Valunde (cave, North)</text><nlkx/>
+   <text>Rhoelind (boat, West)</text><nlkx/>
+   <text>Lothend (boat)</text><nlkx/>
+   <text>Raven's Isle (boat)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_TM">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>           Thunder Mountain (TM)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Thunder Mountain consists of a large complex</text><nlkx/>
+   <text> with three levels of interconnected caves. </text><nlkx/>
+   <text> Navigation is tricky and parts can contain </text><nlkx/>
+   <text> dangerous creatures.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Zerimor (N)</text><nlkx/>
+   <text>Drakensbane (E)</text><nlkx/>
+   <text>Braigor (S)</text><nlkx/>
+   <text>Thalendale (W)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_DC">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>             Dwarven Caves (DC)</text><nl/><nl/>
+   <text> </text><!-- <ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/> -->
+   <!-- No Icon? -->
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> The Dwarven Caves consists of several sections, some</text><nlkx/>
+   <text> filled with creatures.</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Dwarven</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text> </text><nlkx/>
+   <text> </text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_AR"><!-- Maps left as template -->
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                   Arius</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners9.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Arius is the home of invention, and one of the</text><nlkx/>
+   <text> main Gnomish colonies in Irilion.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> It is home to the second largest Irilion magic</text><nl/>
+   <text> school, which is, ironically, run by Grandmaster Nerala,</text><nl/>
+   <text> who is of Orchan descent.</text><nl/>
+   <nl/>
+   <text> Walking around this isle, you will be able to see the</text><nl/>
+   <text> many creations and inventions that their Gnomish</text><nl/>
+   <text> scientists have concocted.</text><nl/>
+   <nl/>
+   <text> The Limestone Mountain Range is also the only place to</text><nl/>
+   <text> find a good source of gypsum.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: No</text><nlkx/>
+   <nl/>
+   <text> Races: Gnomes inhabit this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Irinveron (boat)</text><nlkx/>
+   <text>Irsis (boat)</text><nlkx/>
+   <text>Willowvine Forest (flying boat)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_SRM">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>            South Redmoon (SRM)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners7.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> South Redmoon is one of the highest traffic maps</text><nlkx/>
+   <text> in Irilion.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> You will always see travelers going between the</text><nl/>
+   <text> storage and the mine, as it is a great source for iron</text><nl/>
+   <text> and other metals.</text><nl/>
+   <nl/>
+   <text> It is very rich in flora and fauna. The cave holds an</text><nl/>
+   <text> entrance to the mines, a healing spa, and also a path to</text><nl/>
+   <text> Mount Sorrow, which is an icy part of the mountain that</text><nl/>
+   <text> few attempt to traverse.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Orchan dwellings are found on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Hurquin (boat)</text><nlkx/>
+   <text>Zirakinbar (boat)</text><nlkx/>
+   <text>North Redmoon</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_HUR">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                  Hurquin</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Hurquin is a Gnomish isle. It is much smaller in</text><nlkx/>
+   <text> size compared to Arius, and doesn't have any</text><nlkx/>
+   <text> inventions on display.</text><nlkx/>
+   <nl/>
+   <text> The main point of interest on the island is the cave. If</text><nl/>
+   <text> you can dodge the hobgoblins, you may find the Temple of</text><nl/>
+   <text> Knowledge, a place renowned to researchers all over the</text><nl/>
+   <text> land. You may also come across the crypt, which holds</text><nl/>
+   <text> secrets... and danger as well.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Safe: Outside</text><nlkx/>
+   <nl/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Gnomes make their homes on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Melinis (boat)</text><nlkx/>
+   <text>South Redmoon (boat)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_TR">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                  Trassian</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners5.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Trassian is the main home of the Draegoni, with</text><nlkx/>
+   <text> the city of Dra Syn.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> The city itself was sealed off to travelers,</text><nl/>
+   <text> however, a few secret entrances are known. If you can</text><nl/>
+   <text> find your way into Dra Syn, you may get lost in the vast</text><nl/>
+   <text> cavern system, part of which is known as Deepstone</text><nl/>
+   <text> Caverns.</text><nl/>
+   <nl/>
+   <text> Beware, Yeti have been known to sneak out of the caves</text><nl/>
+   <text> and roam Dra Syn.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: In caves.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Draegoni make their homes on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Glacmor</text><nlkx/>
+   <text>Iscalrith (cave)</text><nlkx/>
+   <text>Hulda</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_HU">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color>red</color>
+   <text>                   Hulda</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Hulda is barren wasteland of ice. Death is the</text><nlkx/>
+   <text> key element of this map.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> Warriors fight eachother here, as well as the</text><nl/>
+   <text> strong snow creatures that call this small territory home.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: Yes</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: No set race</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Iscalrith</text><nlkx/>
+   <text>Trassian</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_IOTF">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>        Isles of the Forgotten (IotF)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banners8.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Isles of the Forgotten does not look like anywhere</text><nlkx/>
+   <text> else. All the structures and plants on this isle</text><nlkx/>
+   <text> appear to be disappearing, and the reason why is</text><nlkx/>
+   <text> still unknown.</text><nl/>
+   <nl/>
+   <text> Rumor has it that a curse was set upon this chain of</text><nl/>
+   <text> isles, and a resident of them, Dryx, found a way to save</text><nl/>
+   <text> them, but not restore what had already occurred. In turn,</text><nl/>
+   <text> there is a temple to honor Dryx as well. This isle holds</text><nl/>
+   <text> many secrets that are just waiting to be found.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: No</text><nlkx/>
+   <nl/>
+   <text> Races: No set race</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Iscalrith (teleportal)</text><nlkx/>
+   <text>Imbroglio Islands (teleportal)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_II">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color>red</color>
+   <text>             Imbroglio Islands</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Imbroglio is a chain of islands connected by</text><nlkx/>
+   <text> underwater caverns.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> Considered to be one giant maze, it is very easy</text><nl/>
+   <text> to get lost within. Fighters and strong creatures roam</text><nl/>
+   <text> the outsides in hopes to kill you. Once you are able to</text><nl/>
+   <text> pass Oblivion, however, a rare resource can be found.</text><nl/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: Yes</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: No set race</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Iscalrith (boat)</text><nlkx/>
+   <text>Isles of the Forgotten (teleportal)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_IR">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                 Irinveron</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners5.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Irinveron is a vast snowy wasteland with minimal</text><nlkx/>
+   <text> resources. The caves of Daa Gri are home to</text><nlkx/>
+   <text> Draegoni, as well as yeti if you venture into</text><nlkx/>
+   <text> the wrong cave.</text><nl/>
+   <nl/>
+   <text> Chary runs the storage at Fisher's Point, which is not</text><nl/>
+   <text> far from a manufacturing school.</text><nl/>
+   <text> The village of Candolis is a human village, and is also</text><nl/>
+   <text> a location to buy tailoring supplies in Irilion.</text><nl/>
+   <nl/>
+   <text> There is also a rumor of a lost temple worshipping an</text><nl/>
+   <text> ancient god, but no evidence has been found yet.</text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: In cave.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Humans dwellings can be found in Candolis and</text><nl/>
+   <text>        Fisher's Point, while Draegoni make their homes</text><nl/>
+   <text>        in the caves.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Idaloran (boat)</text><nlkx/>
+   <text>Iscalrith (boat)</text><nlkx/>
+   <text>Arius (boat)</text><nlkx/>
+   <text>Glacmor</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_IS">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                 Iscalrith</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banners5.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Iscalrith is a snow map on the eastern side of icy</text><nlkx/>
+   <text> regions. The small village of Meel's Port houses a</text><nlkx/>
+   <text> general store and a tavern. Fort Telmont is to the</text><nlkx/>
+   <text> southeast of the village, an old fort that played</text><nl/>
+   <text> a significant part in the Great War, but now is just used</text><nl/>
+   <text> to defend against the yeti in the area. You can also find</text><nl/>
+   <text> a second tavern within the fort.</text><nl/>
+   <nl/>
+   <text> Iscalrith city is another major Draegoni city. The city</text><nl/>
+   <text> can be reached by boat, but some have said there is</text><nl/>
+   <text> another way through a hidden tunnel. The city can be</text><nl/>
+   <text> navigated through a series of maze-like caves, and is</text><nl/>
+   <text> rumored to have many resources.</text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No, but there is an arena.</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: No</text><nlkx/>
+   <nl/>
+   <text> Races: Humans dwellings can be found in the villages</text><nl/>
+   <text>        and the forts, while Draegoni make their homes</text><nl/>
+   <text>        in the caves.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Egratia Point (boat)</text><nlkx/>
+   <text>Irinveron (boat)</text><nlkx/>
+   <text>Imbroglio Islands (boat)</text><nlkx/>
+   <text>Glacmor</text><nlkx/>
+   <text>Trassian (cave)</text><nlkx/>
+   <text>Hulda</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_GLA">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                  Glacmor</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banners5.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Glacmor is the highest-trafficked snow region.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> It has the largest market area currently known</text><nlkx/>
+   <text> to Irilion, and is home of a skill academy that</text><nl/>
+   <text> houses crafters, potion-makers, and alchemists. The caves</text><nl/>
+   <text> are rich in ores and minerals as well.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: Yes</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: No</text><nlkx/>
+   <nl/>
+   <text> Races: Draegoni make their homes on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Aeth Aelfan (boat)</text><nlkx/>
+   <text>Irinveron</text><nlkx/>
+   <text>Trassian</text><nlkx/>
+   <text>Iscalrith</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_AD">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                 Aldath (AD)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Aldath is an old kingdom.</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Elves make their homes on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Alkh-Endune (N)</text><nlkx/>
+   <text>Lothend (E)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_NRM">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_C2" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>            North Redmoon (NRM)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banners7.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> North Redmoon has one very dominant feature, the</text><nlkx/>
+   <text> volcano that's right in the middle of the region.</text><nlkx/>
+   <text> </text><nlkx/>
+   <text> There is a legend that those who face the extreme</text><nl/>
+   <text> heat of the volcano can find treasures... and death.</text><nl/>
+   <nl/>
+   <text> The young Orchans of the tribe face a trial of passage</text><nl/>
+   <text> and climb the volcano, to be considered adults among</text><nl/>
+   <text> their people.</text><nl/>
+   <nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Orchan dwellings are found on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Idaloran (boat)</text><nlkx/>
+   <text>Thelinor (boat)</text><nlkx/>
+   <text>South Redmoon</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_C2" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_VL">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color>red</color>
+   <text>                 Valunde (VL)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Valunde is a U shaped coastal area in the North-</text><nlkx/>
+   <text> East of Alroth. Around the area warriors test </text><nlkx/>
+   <text> their strength and fight each other. </text><nlkx/> 
+   <text> A boat connect the northern and southern shores.</text><nl/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: Yes</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races: Dwarven dwellings are found on this map.</text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Drakensbane (SW)</text><nlkx/>
+   <text>Glingor (cave)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+<Page name="Maps2_MG">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Maps_DL" title="Back"/>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <color r="1" g="1" b="1"/>
+   <text>                 Morog (MG)</text><nl/><nl/>
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
+   <size>Medium</size><color r="0.5" g="0.9" b="1"/>
+   <text> Morog is connected to Seridia via a portal.</text><nlkx/>
+   <nl/><nl/><nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <text> Storage: No</text><nlkx/>
+   <nl/>
+   <text> PK: No</text><nlkx/>
+   <nl/>
+   <text> Multi-combat: Yes</text><nlkx/>
+   <nl/>
+   <text> Races:  </text><nlkx/>
+   <nl/>
+   <text> Connected maps: </text><text>Braigor (W)</text><nlkx/>
+   <text>Drakensbane (N)</text><nlkx/>
+   <text>Rhoelind (NE)</text><nlkx/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
+</Page>
+</Maps2>

@@ -1,0 +1,2757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document xmlns="http://www.eternal-lands.com/xmlns/encyclopedia/semantic" xmlns:m="http://www.eternal-lands.com/xmlns/encyclopedia/messages" version="0.9.3">
+
+
+   <title>The Eternal Lands Encyclopedia</title>
+
+
+   <abstract>Welcome to the Eternal Lands Encyclopedia! It is currently
+maintained by crusadingknight, you can contact him through the eternal lands
+official forum at http://www.eternal-lands.com/forum/, or at 
+crusadingknight@gawab.com</abstract>
+
+		<m:messages xmlns="http://www.eternal-lands.com/xmlns/encyclopedia/visual">
+			<m:attribute-group name="global-attributes">
+				<m:attribute name="block-progression-direction">top-down</m:attribute>
+				<m:attribute name="inline-progression-direction">left-to-right</m:attribute>
+			</m:attribute-group>
+			<m:msg name="currency-format"># GC</m:msg>
+			<m:msg name="number-format-chapter">1</m:msg>
+			<m:msg name="number-format-section">1</m:msg>
+			<m:msg name="number-format-subsection">1</m:msg>
+
+			<m:msg name="previous">Previous</m:msg>
+			<m:msg name="up">Up</m:msg>
+			<m:msg name="contents">Contents</m:msg>
+			<m:msg name="next">Next</m:msg>
+			
+			<m:msg name="first"><m:v/></m:msg>
+			<m:msg name="middle">, <m:v/></m:msg>
+			<m:msg name="last"> and <m:v/></m:msg>
+			<m:msg name="single"><m:v/></m:msg>
+
+			<m:msg name="allies">Allies: <m:v/></m:msg>
+			<m:msg name="base-attributes">Base Attributes: <m:v/></m:msg>
+			<m:msg name="base-experience-alchemy"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-alchemy"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="base-experience-crafting"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-crafting"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="base-experience-harvesting"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-harvesting"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="base-experience-magic"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-magic"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="base-experience-manufacturing"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-manufacturing"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="base-experience-potions"><m:ref name="x-base-experience"><m:with-param name="skill"><m:ref name="x-potions"/></m:with-param><m:with-param name="level"><m:v/></m:with-param></m:ref></m:msg>
+			<m:msg name="book-monster-drop">This book is a monster drop only.<m:v/></m:msg>
+			<m:msg name="book-previous-knowledge">Read these books first: <m:v/></m:msg>
+			<m:msg name="enemies">Enemies: <m:v/></m:msg>
+			<m:msg name="ethereal-cost">Ethereal cost: <m:v/></m:msg>
+			<m:msg name="food-cost">Food cost: <m:v/></m:msg>
+			<m:msg name="hostile">This creature may attack you randomly!</m:msg>
+			<m:msg name="non-hostile">This creature does not attack you until you attack it.</m:msg>
+			<m:msg name="ingredients">Ingredients: <m:v/></m:msg>
+			<m:msg name="location">Location: <m:v/></m:msg>
+			<m:msg name="monster-drop">This item is a monster drop only.<m:v/></m:msg>
+			<m:msg name="not-stackable">This item is not stackable.</m:msg>
+			<m:msg name="previous-knowledge">Knowledge required: <m:v/></m:msg>
+			<m:msg name="priest">Priest: <m:v/></m:msg>
+			<m:msg name="reagents">Reagents: <m:v/></m:msg>
+			<m:msg name="recommended-skill-alchemy">Recommended skill level in <m:ref name="x-alchemy"/>: <m:v/></m:msg>
+			<m:msg name="recommended-skill-crafting">Recommended skill level in <m:ref name="x-crafting"/>: <m:v/></m:msg>
+			<m:msg name="recommended-skill-harvesting">Recommended skill level in <m:ref name="x-harvesting"/>: <m:v/></m:msg>
+			<m:msg name="recommended-skill-manufacturing">Recommended skill level in <m:ref name="x-manufacturing"/>: <m:v/></m:msg>
+			<m:msg name="recommended-skill-potions">Recommended skill level in <m:ref name="x-potions"/>: <m:v/></m:msg>
+			<m:msg name="required-nexus-animal">Required animal nexus: <m:v/></m:msg>
+			<m:msg name="required-nexus-artificial">Required artificial nexus: <m:v/></m:msg>
+			<m:msg name="required-nexus-inorganic">Required inorganic nexus: <m:v/></m:msg>
+			<m:msg name="required-nexus-vegetal">Required vegetal nexus: <m:v/></m:msg>
+			<m:msg name="required-skill-magic">Required skill level in magic: <m:v/></m:msg>
+			<m:msg name="research-points">Research points: <m:v/></m:msg>
+			<m:msg name="sigils">Sigils: <m:v/></m:msg>
+			<m:msg name="stackable">You can stack this kind of item.</m:msg>
+			<m:msg name="starting-rank">Starting rank: <m:v/></m:msg>
+			<m:msg name="tools">Required tools: <m:v/></m:msg>
+			<m:msg name="weight">Weight: <m:v/> EMU</m:msg>
+			<m:msg name="cross-attributes">Cross attributes: <m:v/></m:msg>
+			<m:msg name="opposing-perks">Does not work with: <m:v/></m:msg>
+			<m:msg name="pp-cost">Pickpoints: <m:v/></m:msg>
+			<m:msg name="price">Price: <m:v/></m:msg>
+
+			<m:msg name="x-alchemy">alchemy</m:msg>
+			<m:msg name="x-crafting">crafting</m:msg>
+			<m:msg name="x-harvesting">harvesting</m:msg>
+			<m:msg name="x-magic">magic</m:msg>
+			<m:msg name="x-manufacturing">manufacturing</m:msg>
+			<m:msg name="x-potions">potions</m:msg>
+			<m:msg name="x-base-experience">Base experience given in <m:param name="skill"/>: <m:param name="level"/></m:msg>
+		</m:messages>
+
+   <chapter>
+      <title>Alchemy</title>
+      <essence>
+         <name>Fire Essence</name>
+         <description>Used for metal smelting, molding, crafting and 
+		gargoyle summoning.</description>
+         <base-experience skill="alchemy">5</base-experience>
+         <food-cost>1</food-cost>
+         
+            
+            <ingredient amount="1">red rose</ingredient>
+            
+            <ingredient amount="1">red snapdragon</ingredient>
+            
+            <ingredient amount="1">sulphur</ingredient>
+         
+         <recommended skill="alchemy">0</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Water Essence</name>
+         <description>Used for polishing jewels and manufacturing axes.</description>
+         <base-experience skill="alchemy">10</base-experience>
+         <food-cost>1</food-cost>
+         
+            
+            <ingredient amount="1">blue lupine</ingredient>
+            
+            <ingredient amount="1">blue star flower</ingredient>
+            
+            <ingredient amount="1">sapphire</ingredient>
+            
+            <ingredient amount="1">blue quartz</ingredient>
+         
+         <recommended skill="alchemy">2</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Earth Essence</name>
+         <description>There is no use for this essence yet.</description>
+         <base-experience skill="alchemy">20</base-experience>
+         <food-cost>2</food-cost>
+         
+            
+            <ingredient amount="1">sulphur</ingredient>
+            
+            <ingredient amount="1">swamp candle</ingredient>
+            
+            <ingredient amount="2">coal</ingredient>
+         
+         <recommended skill="alchemy">4</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Air Essence</name>
+         <description>Used for manufacturing axes.</description>
+         <base-experience skill="alchemy">25</base-experience>
+         <food-cost>3</food-cost>
+         
+            
+            <ingredient amount="1">silver ore</ingredient>
+            
+            <ingredient amount="1">diamond</ingredient>
+            
+            <ingredient amount="1">white asiatic lilly</ingredient>
+         
+         <recommended skill="alchemy">6</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Spirit Essence</name>
+         <description>Used for teleport and heal/smite summoned spells.</description>
+         <base-experience skill="alchemy">35</base-experience>
+         <food-cost>4</food-cost>
+         
+            
+            <ingredient amount="1">mercury</ingredient>
+            
+            <ingredient amount="1">silver ore</ingredient>
+            
+            <ingredient amount="1">gold ore</ingredient>
+         
+         <recommended skill="alchemy">8</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Matter Essence</name>
+         <description>Used for the spells: matter shield, teleport to range,
+		teleport to portals room, smite summoned. Used for summoning gargoyles.</description>
+         <base-experience skill="alchemy">40</base-experience>
+         <food-cost>5</food-cost>
+         
+            
+            <ingredient amount="1">iron ore</ingredient>
+            
+            <ingredient amount="1">quartz</ingredient>
+            
+            <ingredient amount="1">rose quartz</ingredient>
+            
+            <ingredient amount="1">blue quartz</ingredient>
+         
+         <recommended skill="alchemy">10</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Energy Essence</name>
+         <description>Used for spells: magic protection, teleport spells,
+		magic immunity.</description>
+         <base-experience skill="alchemy">45</base-experience>
+         <food-cost>6</food-cost>
+         
+            
+            <ingredient amount="1">iron ore</ingredient>
+            
+            <ingredient amount="1">silver ore</ingredient>
+            
+            <ingredient amount="1">tiger lilly</ingredient>
+         
+         <recommended skill="alchemy">12</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Life Essence</name>
+         <description>Used for life drain and heal spell and summoning.</description>
+         <base-experience skill="alchemy">50</base-experience>
+         <food-cost>7</food-cost>
+         
+            
+            <ingredient amount="1">silver ore</ingredient>
+            
+            <ingredient amount="2">sunflowers</ingredient>
+         
+         <previous-knowledge>Life Essence</previous-knowledge>
+         <recommended skill="alchemy">14</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Death Essence</name>
+         <description>Used for poison, harm and smite summoned spells and
+		gargoyle summoning.</description>
+         <base-experience skill="alchemy">60</base-experience>
+         <food-cost>8</food-cost>
+         
+            
+            <ingredient amount="1">quartz</ingredient>
+            
+            <ingredient amount="1">mercury</ingredient>
+            
+            <ingredient amount="1">cactus</ingredient>
+         
+         <previous-knowledge>Death Essence</previous-knowledge>
+         <recommended skill="alchemy">16</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Health Essence</name>
+         <description>Used for spells: heal, remote heal, harm and
+		restoration.</description>
+         <base-experience skill="alchemy">70</base-experience>
+         <food-cost/>
+         
+            
+            <ingredient amount="1">chrysanthemum</ingredient>
+            
+            <ingredient amount="2">silver ore</ingredient>
+         
+         <previous-knowledge>Health Essence</previous-knowledge>
+         <recommended skill="alchemy">18</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <essence>
+         <name>Magic Essence</name>
+         <description>Used for remote heal, magic protection and magic
+		immunity spells.</description>
+         <base-experience skill="alchemy">80</base-experience>
+         <food-cost>10</food-cost>
+         
+            
+            <ingredient amount="1">impatiens</ingredient>
+            
+            <ingredient amount="1">lilac</ingredient>
+            
+            <ingredient amount="1">emerald</ingredient>
+         
+         <previous-knowledge>Magic Essence</previous-knowledge>
+         <recommended skill="alchemy">20</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </essence>
+      <metal>
+         <name>Iron Bar</name>
+         <description>Used for manufacturing iron weapons, shields
+		and armors as well as for boots and leather armor.</description>
+         <base-experience skill="alchemy">120</base-experience>
+         <food-cost>11</food-cost>
+         
+            
+            <ingredient amount="7">iron ore</ingredient>
+            
+            <ingredient amount="3">coal</ingredient>
+            
+            <ingredient amount="2">fire essences</ingredient>
+         
+         <previous-knowledge>Iron Smelting</previous-knowledge>
+         <recommended skill="alchemy">22</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </metal>
+      <metal>
+         <name>Steel Bar</name>
+         <description>Used for manufacturing steel armor and weapons.</description>
+         <base-experience skill="alchemy">140</base-experience>
+         <food-cost>12</food-cost>
+         
+            
+            <ingredient amount="8">iron ore</ingredient>
+            
+            <ingredient amount="5">coal</ingredient>
+            
+            <ingredient amount="3">fire essences</ingredient>
+         
+         <previous-knowledge>Steel Smelting</previous-knowledge>
+         <recommended skill="alchemy">24</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </metal>
+      <metal>
+         <name>Silver Bar</name>
+         <description>Used for crafting and potion of summoning.</description>
+         <base-experience skill="alchemy">155</base-experience>
+         <food-cost>13</food-cost>
+         
+            
+            <ingredient amount="8">silver ore</ingredient>
+            
+            <ingredient amount="3">coal</ingredient>
+            
+            <ingredient amount="4">fire essences</ingredient>
+         
+         <previous-knowledge>Silver Smelting</previous-knowledge>
+         <recommended skill="alchemy">26</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </metal>
+      <metal>
+         <name>Gold Bar</name>
+         <description>Used for crafting.</description>
+         <base-experience skill="alchemy">170</base-experience>
+         <food-cost>14</food-cost>
+         
+            
+            <ingredient amount="8">gold ore</ingredient>
+            
+            <ingredient amount="3">coal</ingredient>
+            
+            <ingredient amount="5">fire essences</ingredient>
+         
+         <previous-knowledge>Gold Smelting</previous-knowledge>
+         <recommended skill="alchemy">28</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </metal>
+      <metal>
+         <name>Titanium Bar</name>
+         <description>Used for manufacturing titanium armor and 
+		weapons.</description>
+         <base-experience skill="alchemy">180</base-experience>
+         <food-cost>15</food-cost>
+         
+            
+            <ingredient amount="8">titanium ore</ingredient>
+            
+            <ingredient amount="3">coal</ingredient>
+            
+            <ingredient amount="7">fire essences</ingredient>
+         
+         <previous-knowledge>Titanium Smelting</previous-knowledge>
+         <recommended skill="alchemy">30</recommended>
+         <stackable/>
+         <weight>1</weight>
+      </metal>
+   </chapter>
+
+
+   <chapter>
+      <title>Attributes</title>
+      <section>
+         <title>Basic Attributes</title>
+         <base-attribute>
+            <name>Physique</name>
+            <description/>
+         </base-attribute>
+         <base-attribute>
+            <name>Coordination</name>
+            <description/>
+         </base-attribute>
+         <base-attribute>
+            <name>Reasoning</name>
+            <description/>
+         </base-attribute>
+         <base-attribute>
+            <name>Will</name>
+            <description/>
+         </base-attribute>
+         <base-attribute>
+            <name>Instinct</name>
+            <description/>
+         </base-attribute>
+         <base-attribute>
+            <name>Vitality</name>
+            <description/>
+         </base-attribute>
+      </section>
+      <section>
+         <title>Cross Attributes</title>
+         <cross-attribute>
+            <name>Might</name>
+            <description>Increases the total amount that you can 
+			carry.</description>
+            <base-attribute-name>Physique</base-attribute-name>
+            <base-attribute-name>Coordination</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Matter</name>
+            <description>Increases your maximum health points.</description>
+            <base-attribute-name>Physique</base-attribute-name>
+            <base-attribute-name>Will</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Toughness</name>
+            <description>Reduces the amount of damage taken in a 
+			fight.</description>
+            <base-attribute-name>Physique</base-attribute-name>
+            <base-attribute-name>Vitality</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Charm</name>
+            <description>Charm is currently unused.</description>
+            <base-attribute-name>Instinct</base-attribute-name>
+            <base-attribute-name>Vitality</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Reaction</name>
+            <description>Helps you avoid being hit in combat.</description>
+            <base-attribute-name>Coordination</base-attribute-name>
+            <base-attribute-name>Instinct</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Perception</name>
+            <description>Perception is currently unused.</description>
+            <base-attribute-name>Reasoning</base-attribute-name>
+            <base-attribute-name>Instinct</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Rationality</name>
+            <description>Reduces research time and increases the amount of
+			experience you recieve.</description>
+            <base-attribute-name>Reasoning</base-attribute-name>
+            <base-attribute-name>Will</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Dexterity</name>
+            <description>Increases your chance to score a hit.</description>
+            <base-attribute-name>Reasoning</base-attribute-name>
+            <base-attribute-name>Coordination</base-attribute-name>
+         </cross-attribute>
+         <cross-attribute>
+            <name>Ethereality</name>
+            <description>Increases your maximum ethereal (mana) points.</description>
+            <base-attribute-name>Will</base-attribute-name>
+            <base-attribute-name>Vitality</base-attribute-name>
+         </cross-attribute>
+      </section>
+      <section>
+         <title>Nexuses</title>
+         <nexus>
+            <name>Human Nexus</name>
+            <description>Limits the kind of equipment you can wear, i. e.
+			what armor and weapons.</description>
+         </nexus>
+         <nexus>
+            <name>Animal Nexus</name>
+            <description>Used in summoning. The higher your animal nexus,
+			the stronger creatures you can summon.</description>
+         </nexus>
+         <nexus>
+            <name>Vegetal Nexus</name>
+            <description>Limits what kind of potions you can brew.</description>
+         </nexus>
+         <nexus>
+            <name>Inorganic Nexus</name>
+            <description>Limits the sorts of minerals and ores you can 
+			harvest.</description>
+         </nexus>
+         <nexus>
+            <name>Artificial Nexus</name>
+            <description>Used in manufacturing. The higher your artificial
+			nexus, the more complex items you can manufacture.</description>
+         </nexus>
+         <nexus>
+            <name>Magic Nexus</name>
+            <description>Used for enchanting and embedding some items.</description>
+         </nexus>
+      </section>
+      <section>
+         <title>Skills</title>
+         <skill>
+            <name>Attack</name>
+            <description>Attack is used to calculate how much damage you
+			cause when scoring a hit.</description>
+         </skill>
+         <skill>
+            <name>Defense</name>
+            <description>Defense is used to calculate how much damage you
+			take when hit by your combatant.</description>
+         </skill>
+         <skill>
+            <name>Harvesting</name>
+            <description>Harvesting is used to calculate your harvesting
+			speed and failure rate.</description>
+         </skill>
+         <skill>
+            <name>Alchemy</name>
+            <description>Alchemy affects your failure rates and working 
+			speed in essence extracting and metal smelting.</description>
+         </skill>
+         <skill>
+            <name>Magic</name>
+            <description>Your magic skill level limits the kinds of spells
+			you can cast.</description>
+         </skill>
+         <skill>
+            <name>Potion</name>
+            <description>This skill level determines your failure
+			rates and working speed when brewing potions.</description>
+         </skill>
+         <skill>
+            <name>Summoning</name>
+            <description>The summoning skill level affects your failure
+			rate when summoning.</description>
+         </skill>
+         <skill>
+            <name>Manufacturing</name>
+            <description>Determines failure rates and working speed when
+			manufacturing clothes, armor and weapons.</description>
+         </skill>
+      </section>
+      <skill>
+         <name>Crafting</name>
+         <description>Affects failure rates and working speed in ring
+			molding, medaillon molding and crystal polishing.</description>
+      </skill>
+      <skill>
+         <name>Overall</name>
+         <description>Your overall level determines how many pickpoints
+			you have. Pickpoints can be used to increase basic attributes,
+			nexuses and to get perks at the Wraith on Isla Prima.</description>
+      </skill>
+   </chapter>
+
+
+   <chapter>
+      <title>Books</title>
+      <section>
+         <title>Whitestone City Library</title>
+         <subsection>
+            <title>General Metallurgy</title>
+            <book>
+               <name>Metallurgy</name>
+               <price>30</price>
+               <research-points>250</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Metal Smelting</name>
+               <price>35</price>
+               <research-points>300</research-points>
+               <previous-knowledge>Metallurgy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Metal Mining</name>
+               <price>35</price>
+               <research-points>300</research-points>
+               <previous-knowledge>Metallurgy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Metal Molding</name>
+               <price>33</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Metallurgy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Weapon Construction</name>
+               <price>60</price>
+               <research-points>700</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Sword Construction</name>
+               <price>90</price>
+               <research-points>900</research-points>
+               <previous-knowledge>Weapon Construction</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>General Armor</name>
+               <price>130</price>
+               <research-points>1000</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Torso Armor</name>
+               <price>160</price>
+               <research-points>1200</research-points>
+               <previous-knowledge>General Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Feet Armor</name>
+               <price>160</price>
+               <research-points>1400</research-points>
+               <previous-knowledge>General Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Legs Armor</name>
+               <price>110</price>
+               <research-points>1600</research-points>
+               <previous-knowledge>General Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Head Armor</name>
+               <price>100</price>
+               <research-points>1600</research-points>
+               <previous-knowledge/>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Shield Construction</name>
+               <price>130</price>
+               <research-points>600</research-points>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Mining, Smelting and Molding</title>
+            <book>
+               <name>Gold Smelting</name>
+               <price>37</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Metal Smelting</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Smelting</name>
+               <price>25</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Metal Smelting</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Silver Smelting</name>
+               <price>40</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Metal Smelting</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Smelting</name>
+               <price>70</price>
+               <research-points>1200</research-points>
+               <previous-knowledge>Metal Smelting</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gold Mining</name>
+               <price>160</price>
+               <research-points>1400</research-points>
+               <previous-knowledge>Metal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Mining</name>
+               <price>135</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Metal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Silver Mining</name>
+               <price>150</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Metal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Molding</name>
+               <price>200</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Metal Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gold Molding</name>
+               <price>250</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Metal Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Molding</name>
+               <price>100</price>
+               <research-points>1500</research-points>
+               <previous-knowledge>Metal Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Silver Molding</name>
+               <price>180</price>
+               <research-points>1500</research-points>
+               <previous-knowledge>Metal Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Weapons and Armors</title>
+            <book>
+               <name>Iron Sword</name>
+               <price>90</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Broad Sword</name>
+               <price>110</price>
+               <research-points>3000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Long Sword</name>
+               <price>150</price>
+               <research-points>4000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Steel Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Two Edged Sword</name>
+               <price>200</price>
+               <research-points>5000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Steel Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Leather Helmet</name>
+               <price>70</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Head Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Helmet</name>
+               <price>100</price>
+               <research-points>1400</research-points>
+               <previous-knowledge>Head Armor</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Greaves</name>
+               <price>120</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Legs Armor</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Leather Pants</name>
+               <price>80</price>
+               <research-points>1200</research-points>
+               <previous-knowledge>Legs Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Chainmail</name>
+               <price>200</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Torso Armor</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Platemail</name>
+               <price>230</price>
+               <research-points>2400</research-points>
+               <previous-knowledge>Iron Chainmail</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Chainmail</name>
+               <price>250</price>
+               <research-points>2100</research-points>
+               <previous-knowledge>Torso Armor</previous-knowledge>
+               <previous-knowledge>Steel Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Padded Leather Torso</name>
+               <price>100</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Torso Armor</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Shield</name>
+               <price>160</price>
+               <research-points>1400</research-points>
+               <previous-knowledge>Shield Construction</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Cuisses</name>
+               <price>120</price>
+               <research-points>1600</research-points>
+               <previous-knowledge>Feet Armor</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+      </section>
+      <section>
+         <title>Frukas (Grahm's Village)</title>
+         <subsection>
+            <title>Generic Biology</title>
+            <book>
+               <name>Biology</name>
+               <price>50</price>
+               <research-points>400</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Biochemistry</name>
+               <price>60</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Biology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Botanics</name>
+               <price>40</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Biology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Anatomy</name>
+               <price>40</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Biology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Advanced Alchemy</name>
+               <price>100</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Biochemistry</previous-knowledge>
+               <previous-knowledge>Botanics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Advanced Potions</name>
+               <price>120</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Biochemistry</previous-knowledge>
+               <previous-knowledge>Botanics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Advanced Summoning</name>
+               <price>60</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Anatomy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Combat Tactics</name>
+               <price>70</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Anatomy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Alchemy and Potions</title>
+            <book>
+               <name>Life Essence</name>
+               <price>110</price>
+               <research-points>1200</research-points>
+               <previous-knowledge>Advanced Alchemy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Death Essence</name>
+               <price>130</price>
+               <research-points>1300</research-points>
+               <previous-knowledge>Advanced Alchemy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Health Essence</name>
+               <price>150</price>
+               <research-points>1400</research-points>
+               <previous-knowledge>Advanced Alchemy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Magic Essence</name>
+               <price>200</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Advanced Alchemy</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Body Restoration</name>
+               <price>200</price>
+               <research-points>900</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Wildness</name>
+               <price>180</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Vitality</name>
+               <price>140</price>
+               <research-points>900</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Coordination</name>
+               <price>150</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Will</name>
+               <price>150</price>
+               <research-points>300</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Summoning and Fighting</title>
+            <book>
+               <name>Snake Summoning</name>
+               <price>90</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Wolf Summoning</name>
+               <price>100</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Boar Summoning</name>
+               <price>130</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Skeleton Summoning</name>
+               <price>140</price>
+               <research-points>700</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Fluffy Rabbit Summoning</name>
+               <price>10000</price>
+               <research-points>15000</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Chimeran Wolf Summoning</name>
+               <price>15000</price>
+               <research-points>20000</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Goblin Fighting</name>
+               <price>40</price>
+               <research-points>900</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Skeleton Fighting</name>
+               <price>80</price>
+               <research-points>1000</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gargoyle Fighting</name>
+               <price>100</price>
+               <research-points>1100</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Puma Fighting</name>
+               <price>120</price>
+               <research-points>1200</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+      </section>
+      <section>
+         <title>Gorlic (Lakeside Inn &amp; Tavern)</title>
+         <subsection>
+            <title>Crystal</title>
+            <book>
+               <name>Crystal Technology</name>
+               <price>80</price>
+               <research-points>300</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Crystal Mining</name>
+               <price>60</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Crystal Technology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Quartz Mining</name>
+               <price>30</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Crystal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Rose Quartz Mining</name>
+               <price>50</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Quartz Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Blue Quartz Mining</name>
+               <price>40</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Quartz Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Ruby Mining</name>
+               <price>150</price>
+               <research-points>700</research-points>
+               <previous-knowledge>Crystal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Emerald Mining</name>
+               <price>200</price>
+               <research-points>700</research-points>
+               <previous-knowledge>Crystal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Sapphire Mining</name>
+               <price>250</price>
+               <research-points>700</research-points>
+               <previous-knowledge>Crystal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Diamond Mining</name>
+               <price>500</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Crystal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Crystal Processing</name>
+               <price>50</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Crystal Technology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Diamond Processing</name>
+               <price>500</price>
+               <research-points>2000</research-points>
+               <previous-knowledge>Crystal Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Sapphire Processing</name>
+               <price>400</price>
+               <research-points>1500</research-points>
+               <previous-knowledge>Crystal Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Emerald Processing</name>
+               <price>300</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Crystal Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Ruby Processing</name>
+               <price>450</price>
+               <research-points>700</research-points>
+               <previous-knowledge>Crystal Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Jewelry</title>
+            <book>
+               <name>Jewelry Technology</name>
+               <price>200</price>
+               <research-points>700</research-points>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Crystal Embedding</name>
+               <price>300</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Jewelry Technology</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Generic Ring Building</name>
+               <price>170</price>
+               <research-points>800</research-points>
+               <previous-knowledge>Jewelry Technology</previous-knowledge>
+               <previous-knowledge>Silver Molding</previous-knowledge>
+               <previous-knowledge>Gold Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Generic Medallion Building</name>
+               <price>170</price>
+               <research-points>900</research-points>
+               <previous-knowledge>Jewelry Technology</previous-knowledge>
+               <previous-knowledge>Silver Molding</previous-knowledge>
+               <previous-knowledge>Gold Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Diamond Embedding</name>
+               <price>300</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Crystal Embedding</previous-knowledge>
+               <previous-knowledge>Diamond Provessing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Sapphire Embedding</name>
+               <price>250</price>
+               <research-points>300</research-points>
+               <previous-knowledge>Crystal Embedding</previous-knowledge>
+               <previous-knowledge>Sapphire Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Emerald Embedding</name>
+               <price>200</price>
+               <research-points>360</research-points>
+               <previous-knowledge>Crystal Embedding</previous-knowledge>
+               <previous-knowledge>Emerald Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Ruby Embedding</name>
+               <price>150</price>
+               <research-points>200</research-points>
+               <previous-knowledge>Crystal Embedding</previous-knowledge>
+               <previous-knowledge>Ruby Processing</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Silver Ring Building</name>
+               <price>200</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Generic Ring Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gold Ring Building</name>
+               <price>300</price>
+               <research-points>400</research-points>
+               <previous-knowledge>Generic Ring Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Silver Medallion Building</name>
+               <price>200</price>
+               <research-points>600</research-points>
+               <previous-knowledge>Generic Medallion Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gold Medallion Building</name>
+               <price>300</price>
+               <research-points>500</research-points>
+               <previous-knowledge>Generic Medallion Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+      </section>
+      <section>
+         <title>Monster Drops</title>
+         <subsection>
+            <title>Manufacturing</title>
+            <book>
+               <name>Steel Shield</name>
+               <monster-drop/>
+               <research-points>1800</research-points>
+               <previous-knowledge>Shield Construction</previous-knowledge>
+               <previous-knowledge>Steel Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Chainmail</name>
+               <monster-drop/>
+               <research-points>4000</research-points>
+               <previous-knowledge>Torso Armor</previous-knowledge>
+               <previous-knowledge>Titanium Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Short Sword</name>
+               <monster-drop/>
+               <research-points>6000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Titanium Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Long Sword</name>
+               <monster-drop/>
+               <research-points>7000</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Titanium Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Seprent Sword</name>
+               <monster-drop/>
+               <research-points>00</research-points>
+               <previous-knowledge>Sword Construction</previous-knowledge>
+               <previous-knowledge>Titanium Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>General Axe Construction</name>
+               <monster-drop/>
+               <research-points>4000</research-points>
+               <previous-knowledge>Weapon Construction</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Iron Axe Construction</name>
+               <monster-drop/>
+               <research-points>3000</research-points>
+               <previous-knowledge>General Axe Construction</previous-knowledge>
+               <previous-knowledge>Iron Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Steel Axe Construction</name>
+               <monster-drop/>
+               <research-points>4000</research-points>
+               <previous-knowledge>General Axe Construction</previous-knowledge>
+               <previous-knowledge>Steel Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Axe Construction</name>
+               <monster-drop/>
+               <research-points>10000</research-points>
+               <previous-knowledge>General Axe Construction</previous-knowledge>
+               <previous-knowledge>Titanium Molding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Crafting</title>
+            <book>
+               <name>Isla Prima Ring Building</name>
+               <monster-drop/>
+               <research-points>200</research-points>
+               <previous-knowledge>Silver Ring Building</previous-knowledge>
+               <previous-knowledge>Emerald Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>VotD Ring Building</name>
+               <monster-drop/>
+               <research-points>800</research-points>
+               <previous-knowledge>Silver Ring Building</previous-knowledge>
+               <previous-knowledge>Diamond Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Naralik Ring Building</name>
+               <monster-drop/>
+               <research-points>900</research-points>
+               <previous-knowledge>Silver Ring Building</previous-knowledge>
+               <previous-knowledge>Diamond Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>WSC Ring Building</name>
+               <monster-drop/>
+               <research-points>600</research-points>
+               <previous-knowledge>Gold Ring Building</previous-knowledge>
+               <previous-knowledge>Emerald Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Portland Ring Building</name>
+               <monster-drop/>
+               <research-points>600</research-points>
+               <previous-knowledge>Gold Ring Building</previous-knowledge>
+               <previous-knowledge>Ruby Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Desert Pines Ring Building</name>
+               <monster-drop/>
+               <research-points>600</research-points>
+               <previous-knowledge>Gold Ring Building</previous-knowledge>
+               <previous-knowledge>Sapphire Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Ring of Damage Building</name>
+               <monster-drop/>
+               <research-points>5000</research-points>
+               <previous-knowledge>Silver Ring Building</previous-knowledge>
+               <previous-knowledge>Ruby Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Ring of Disengagement Building</name>
+               <monster-drop/>
+               <research-points>3000</research-points>
+               <previous-knowledge>Silver Ring Building</previous-knowledge>
+               <previous-knowledge>Sapphire Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Sun Medallion Building</name>
+               <monster-drop/>
+               <research-points>1600</research-points>
+               <previous-knowledge>Gold Medallion Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Unicorn Medallion Building</name>
+               <monster-drop/>
+               <research-points>1400</research-points>
+               <previous-knowledge>Silver Medallion Building</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Moon Medallion Building</name>
+               <monster-drop/>
+               <research-points>1600</research-points>
+               <previous-knowledge>Silver Medallion Building</previous-knowledge>
+               <previous-knowledge>Sapphire Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Stars Medallion Building</name>
+               <monster-drop/>
+               <research-points>1800</research-points>
+               <previous-knowledge>Silver Medallion Building</previous-knowledge>
+               <previous-knowledge>Ruby Embedding</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Combat</title>
+            <book>
+               <name>Orc Fighting</name>
+               <monster-drop/>
+               <research-points>1300</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Bear Fighting</name>
+               <monster-drop/>
+               <research-points>1400</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Troll Fighting</name>
+               <monster-drop/>
+               <research-points>1500</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Cyclops Fighting</name>
+               <monster-drop/>
+               <research-points>1600</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Dwarf Fighting</name>
+               <monster-drop/>
+               <research-points>2000</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Elf Fighting</name>
+               <monster-drop/>
+               <research-points>2000</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Human Fighting</name>
+               <monster-drop/>
+               <research-points>2000</research-points>
+               <previous-knowledge>Combat Tactics</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+         <subsection>
+            <title>Others</title>
+            <book>
+               <name>Titanium Mining</name>
+               <monster-drop/>
+               <research-points>6000</research-points>
+               <previous-knowledge>Metal Mining</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Smelting</name>
+               <monster-drop/>
+               <research-points>2000</research-points>
+               <previous-knowledge>Metal Smelting</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Titanium Molding</name>
+               <monster-drop/>
+               <research-points>7000</research-points>
+               <previous-knowledge/>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Physique</name>
+               <monster-drop/>
+               <research-points>600</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Feasting</name>
+               <monster-drop/>
+               <research-points>2000</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Manufacturing</name>
+               <monster-drop/>
+               <research-points>2300</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Potion of Summoning</name>
+               <monster-drop/>
+               <research-points>2600</research-points>
+               <previous-knowledge>Advanced Potions</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Gargoyles Summoning</name>
+               <monster-drop/>
+               <research-points>800</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Puma Summoning</name>
+               <monster-drop/>
+               <research-points>900</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+            <book>
+               <name>Bear Summoning</name>
+               <monster-drop/>
+               <research-points>1000</research-points>
+               <previous-knowledge>Advanced Summoning</previous-knowledge>
+               <weight>3</weight>
+            </book>
+         </subsection>
+      </section>
+   </chapter>
+
+
+   <chapter>
+      <title>Clothes</title>
+      <section>
+         <title>Fur Clothes</title>
+         <garment>
+            <name>Warm Fur Gloves</name>
+            <description>Gives +1 cold protection, +1 armor.</description>
+            <base-experience skill="manufacturing">5</base-experience>
+            <food-cost>1</food-cost>
+            
+               
+               <ingredient amount="3">brown rabbit fur</ingredient>
+               
+               <ingredient amount="2">threads</ingredient>
+            
+            <recommended skill="manufacturing">0</recommended>
+            <tool>needle</tool>
+            <weight>1</weight>
+         </garment>
+         <garment>
+            <name>Fox Scarf</name>
+            <description>Cannot be worn yet.</description>
+            <base-experience skill="manufacturing">12</base-experience>
+            <food-cost>2</food-cost>
+            
+               
+               <ingredient amount="1">fox fur</ingredient>
+               
+               <ingredient amount="1">thread</ingredient>
+            
+            <recommended skill="manufacturing">3</recommended>
+            <tool>needle</tool>
+            <weight>2</weight>
+         </garment>
+         <garment>
+            <name>Fur Hat</name>
+            <description>Gives +2 cold protection, -1 heat protection</description>
+            <base-experience skill="manufacturing">25</base-experience>
+            <food-cost>3</food-cost>
+            
+               
+               <ingredient amount="3">beaver fur</ingredient>
+               
+               <ingredient amount="1">white rabbit fur</ingredient>
+               
+               <ingredient amount="3">threads</ingredient>
+            
+            <recommended skill="manufacturing">5</recommended>
+            <tool>needle</tool>
+            <weight>2</weight>
+         </garment>
+         <garment>
+            <name>Fur Cloak</name>
+            <description>Gives +6 cold protection, -3 heat protection.</description>
+            <base-experience skill="manufacturing">30</base-experience>
+            <food-cost>4</food-cost>
+            
+               
+               <ingredient amount="3">wolf fur</ingredient>
+               
+               <ingredient amount="2">fox fur</ingredient>
+               
+               <ingredient amount="5">threads</ingredient>
+            
+            <recommended skill="manufacturing">6</recommended>
+            <tool>needle</tool>
+            <weight>4</weight>
+         </garment>
+         <garment>
+            <name>Fur Boots</name>
+            <description>Give +3 cold protection, -1 heat protection.</description>
+            <base-experience skill="manufacturing">55</base-experience>
+            <food-cost>8</food-cost>
+            
+               
+               <ingredient amount="4">rat tails</ingredient>
+               
+               <ingredient amount="5">threads</ingredient>
+               
+               <ingredient amount="2">brown rabbit fur</ingredient>
+               
+               <ingredient amount="1">iron bar</ingredient>
+               
+               <ingredient amount="1">wolf fur</ingredient>
+               
+               <ingredient amount="2">leather</ingredient>
+            
+            <recommended skill="manufacturing">12</recommended>
+            <required nexus="artificial">1</required>
+            <tool>needle</tool>
+            <tool>hammer</tool>
+            <weight>3</weight>
+         </garment>
+         <garment>
+            <name>Fur Pants</name>
+            <description>Give +3 cold protection, -1 heat protection</description>
+            <base-experience skill="manufacturing">110</base-experience>
+            <food-cost>20</food-cost>
+            
+               
+               <ingredient amount="6">leather</ingredient>
+               
+               <ingredient amount="2">deer fur</ingredient>
+               
+               <ingredient amount="2">wolf fur</ingredient>
+               
+               <ingredient amount="1">beaver fur</ingredient>
+               
+               <ingredient amount="7">threads</ingredient>
+            
+            <recommended skill="manufacturing">20</recommended>
+            <required nexus="artificial">2</required>
+            <tool>needle</tool>
+            <weight>3</weight>
+         </garment>
+         <garment>
+            <name>Fur Torso</name>
+            <description>Gives +3 cold protection, -1 heat protection</description>
+            <base-experience skill="manufacturing">140</base-experience>
+            <food-cost>26</food-cost>
+            
+               
+               <ingredient amount="1">iron bar</ingredient>
+               
+               <ingredient amount="10">thread</ingredient>
+               
+               <ingredient amount="7">leather</ingredient>
+               
+               <ingredient amount="3">deer fur</ingredient>
+               
+               <ingredient amount="2">wolf fur</ingredient>
+               
+               <ingredient amount="4">rat tail</ingredient>
+            
+            <recommended skill="manufacturing">22</recommended>
+            <required nexus="artificial">2</required>
+            <tool>needle</tool>
+            <tool>hammer</tool>
+            <weight>3</weight>
+         </garment>
+      </section>
+      <section>
+         <title>Capes &amp; Cloaks</title>
+	 <cloak>
+	   <name>Power Saving Cloak</name>
+	   <description>This cloak will give you the Power Saving Perk.
+This means your food level won't decrease unless you are
+reading, or a stat/skill is being restored.</description>
+	   <price>3800</price>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Excavator Cloak</name>
+	   <description>This cloak will give you the Excavator Perk.
+This doubles the quantity of resources you can harvest in 
+a given time period.</description>
+	   <price>2900</price>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Conjurer Cloak</name>
+	   <description>This cloak will give you the Conjurer Perk.
+This means you get half of the spent mana back after 
+summoning something.</description>
+	   <price>4500</price>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Fast Regeneration Cloak</name>
+	   <description>This cloak will give you the Fast Regeneration Perk.
+This means you'll recover stats and skills (ie. Material 
+Points) three times faster.</description>
+	   <price>3400</price>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Monster Magnetism Cloak</name>
+	   <description>This cloak will give you the Monster Magnetism Perk.
+This means aggressive monsters won't initiate combar
+against you.</description>
+	   <monster-drop/>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Body Piercing Cloak</name>
+	   <description>This cloak will give you the Body Piercing Perk.
+This increases your chance to bypass the opponents armor
+in combat by 10%.</description>
+	   <monster-drop/>
+	   <weight>3</weight>
+	 </cloak>
+	 <cloak>
+	   <name>Mirror Cloak</name>
+	   <description>This cloak will give you the Mirror Skin Perk.
+This signifies that you have a 10% chance to reflect each
+hit back at your opponent.</description>
+	   <monster-drop/>
+	   <weight>3</weight>
+	 </cloak>	 
+      </section>
+   </chapter>
+
+
+   <chapter>
+      <title>Gods</title>
+      <god>
+         <name>Aluwen - Goddess of Defense</name>
+         <description>The goddess of Life and Truth. She believes strongly
+in the goodness of all living things, constantly striving to heal the sick
+or wounded. Her chosen race, the Elves, have inherited her love of 
+nature and the sanctity of life.
+         </description>
+         <ally>Elandria</ally>
+         <ally>Zarin</ally>
+         <enemy>Mortos</enemy>
+         <enemy>Selain</enemy>
+         <location>Corren, Desert Pines</location>
+         <priest>Noria</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Glydoc - God of Crafting</name>
+         <description>A paradoxical god, beset by conflicting natures, he 
+tries to maintain neutrality in all things, not daring to swing too far 
+in one direction or another. He therefore is the patron of crafting,
+most neutral of trades.
+         </description>
+         <ally>Glilin</ally>
+         <ally>Mortos</ally>
+         <enemy>Elandria</enemy>
+         <enemy>Unolas</enemy>
+         <location>White Stone City</location>
+         <priest>Durnam</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Unolas - God of Magic</name>
+         <description>Having attained his godhood through the guidance
+of Mortos then being forced into war against Aluwen, Zarin, and Elandria,
+Unolas now strives to remain impartial and throws himself into the pursuit
+of knowledge and mastery of magic instead.
+         </description>
+         <ally>Glilin</ally>
+         <ally>Aluwen</ally>
+         <enemy>Glydoc</enemy>
+         <enemy>None</enemy>
+         <location>Vermor Castle, White Stone</location>
+         <priest>Adrian</priest>
+         <starting-rank>-2</starting-rank>
+      </god>      
+      <god>
+         <name>Mortos - God of Aggressive Combat</name>
+         <description>He strove to ruin the creation of life in the Eternal Lands
+from the beginning and constantly plots to destroy it. Aided and abetted by
+Selain and his minions, he nurtures terror and war among the unsuspecting
+races whenever possible and using whatever means necessary to achieve 
+his end.
+         </description>
+         <ally>Selain</ally>
+         <ally>Centau</ally>
+         <enemy>Aluwen</enemy>
+         <enemy>Elandria</enemy>
+         <location>Abandonned Temple, Valley of the Dwarves</location>
+         <priest>Dirhyan</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Selain - God of Summoning</name>
+         <description>A student of Mortos, Selain achieved godhood by his
+own efforts, spurned the Assembly, and precipitated the War of the Gods.
+Although his initial efforts in the War involved only bribery and drug-control,
+throughout the long centuries, Selain has become a master in his field, 
+surpassing even Mortos in his ability to twist the bodies and souls of mortals.
+         </description>
+         <ally>Mortos</ally>
+         <ally>Centau</ally>
+         <enemy>Aluwen</enemy>
+         <enemy>Glilin</enemy>
+         <location>Tirnwood, White Stone</location>
+         <priest>Dirhyan</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Glilin - God of Manufacturing</name>
+         <description>Originally a master craftsman of the Dwarves, he 
+marshaled his race during the War of the Gods and was elevated to Divinity
+as a result. Although he fought on the side of Good in that battle, Glilin is not
+primarily predisposed to it, still maintaining Dwarvish practicality and neutrality.
+         </description>
+         <ally>Aluwen</ally>
+         <ally>Unolas</ally>
+         <enemy>Selain</enemy>
+         <enemy>Mortos</enemy>
+         <location>Portland</location>
+         <priest>Baostas</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Elandria - Goddess of Alchemy</name>
+         <description>The patron of lovers and families, she is well-loved for
+her kind, protective nature and is the most popular goddess to invoke during
+marriage ceremonies. She is also the patron goddess for the Humans and the 
+Gnomes, both races that are well-known for their inventiveness in overcoming 
+difficult problems. She is also known as the Protector in some cultures.
+         </description>
+         <ally>Aluwen</ally>
+         <ally>Glilin</ally>
+         <enemy>Centau</enemy>
+         <enemy>Mortos</enemy>
+         <location>*Not Implemented</location>
+         <priest>*Not Implemented</priest>
+         <starting-rank>-2</starting-rank>
+      </god>      
+      <god>
+         <name>Zarin - Goddess of Freedom</name>
+         <description>Zarin is constantly fascinated by the variety found in
+the souls of mortals and takes infinite care to nourish it. She is the patron of
+all artists and rewards all those whose ambitions lead to the development of
+the soul. Unfortunately, her methods may be a little too free at times which
+earn her some rather doubtful looks from her sisters.
+         </description>
+         <ally>Aluwen</ally>
+         <ally>Elandria</ally>
+         <enemy>Glydoc</enemy>
+         <enemy>Mortos</enemy>
+         <location>*Not Implemented</location>
+         <priest>*Not Implemented</priest>
+         <starting-rank>-2</starting-rank>
+      </god>
+      <god>
+         <name>Centau - God of Chaos</name>
+         <description>He originally advocated the need for constant change and
+opposedthe efforts of Elandria to find a permanent shelter for the races,
+until Mortos drove him mad with insidious thoughts. Now he dwells in 
+the depths of the oceans, constantly swaying before his fury, and unleashes his
+madness against all of the Lands.
+         </description>
+         <ally>Selain</ally>
+         <ally>None</ally>
+         <enemy>Aluwen</enemy>
+         <enemy>Mortos</enemy>
+         <location>*Not Implemented</location>
+         <priest>*Not Implemented</priest>
+         <starting-rank>-2</starting-rank>
+      </god>      
+   </chapter>
+
+
+   <chapter>
+      <title>Harvesting</title>
+   </chapter>
+
+
+   <chapter>
+      <title>Jewelry</title>
+   </chapter>
+
+
+   <chapter>
+      <title>Magic</title>
+      <spell>
+         <name>Heal</name>
+         <description>Restores 5 Material Points to the caster.</description>
+         <base-experience skill="magic">5</base-experience>
+         <ethereal-cost>5</ethereal-cost>
+         
+	 <reagent amount="1">Health Essences</reagent>
+         
+         <required skill="magic">0</required>
+         
+	 <sigil>Increase</sigil>
+	 <sigil>Health</sigil>
+         
+      </spell>	
+      <spell>
+         <name>Remote Heal</name>
+         <description>Restores Material Points to the target, based on
+the caster's level.</description>
+         <base-experience skill="magic">15</base-experience>
+         <ethereal-cost>7</ethereal-cost>
+         
+	 <reagent amount="1">Health Essences</reagent>
+	 <reagent amount="1">Magic Essences</reagent>
+         
+         <required skill="magic">3</required>
+         
+	 <sigil>Increase</sigil>
+	 <sigil>Health</sigil>
+         
+      </spell>	
+      <spell>
+         <name>Remote Heal</name>
+         <description>Restores Material Points to the target, based on
+the caster's level.</description>
+         <base-experience skill="magic">15</base-experience>
+         <ethereal-cost>7</ethereal-cost>
+         
+	 <reagent amount="1">Health Essences</reagent>
+	 <reagent amount="1">Magic Essences</reagent>
+         
+         <required skill="magic">3</required>
+         
+	 <sigil>Global</sigil>
+	 <sigil>Increase</sigil>
+	 <sigil>Health</sigil>
+         
+      </spell>
+      <spell>
+         <name>Magic Protection</name>
+         <description>Nothing useful as yet.</description>
+         <base-experience skill="magic">30</base-experience>
+         <ethereal-cost>10</ethereal-cost>
+         
+	 <reagent amount="1">Energy Essences</reagent>
+	 <reagent amount="1">Magic Essences</reagent>
+         
+         <required skill="magic">6</required>
+         
+	 <sigil>Create</sigil>
+	 <sigil>Magic</sigil>
+	 <sigil>Protection</sigil>
+         
+      </spell>
+      <spell>
+         <name>Shield</name>
+         <description>Increases your armor by 3.</description>
+         <base-experience skill="magic">40</base-experience>
+         <ethereal-cost>11</ethereal-cost>
+         
+	 <reagent amount="1">Matter Essences</reagent>
+	 <reagent amount="1">Magic Essences</reagent>
+         
+         <required skill="magic">9</required>
+         
+	 <sigil>Create</sigil>
+	 <sigil>Matter</sigil>
+	 <sigil>Protection</sigil>
+         
+      </spell>
+      <spell>
+         <name>Poison</name>
+         <description>Poisons the target. (They lose 1
+Material Point per minute for 20 minutes.)</description>
+         <base-experience skill="magic">50</base-experience>
+         <ethereal-cost>14</ethereal-cost>
+         
+	 <reagent amount="2">Death Essences</reagent>
+         
+         <required skill="magic">12</required>
+         
+	 <sigil>Temporary</sigil>
+	 <sigil>Decrease</sigil>
+	 <sigil>Life</sigil>
+         
+      </spell>
+      <spell>
+         <name>Teleport to Range</name>
+         <description>Allows you to teleport to a nearby 
+targetted location.</description>
+         <base-experience skill="magic">65</base-experience>
+         <ethereal-cost>15</ethereal-cost>
+         
+	 <reagent amount="1">Matter Essences</reagent>
+	 <reagent amount="1">Energy Essences</reagent>
+	 <reagent amount="1">Spirit Essences</reagent>
+         
+         <required skill="magic">15</required>
+         
+	 <sigil>Move</sigil>
+	 <sigil>Change</sigil>
+	 <sigil>Local</sigil>
+	 <sigil>Space</sigil>
+         
+      </spell>
+      <spell>
+         <name>Harm</name>
+         <description>Inflicts damage to the target, depending on 
+the caster's level.</description>
+         <base-experience skill="magic">80</base-experience>
+         <ethereal-cost>16</ethereal-cost>
+         
+	 <reagent amount="3">Health Essences</reagent>
+	 <reagent amount="1">Death Essences</reagent>
+         
+         <required skill="magic">18</required>
+         
+	 <sigil>Remove</sigil>
+	 <sigil>Health</sigil>
+         
+      </spell>
+      <spell>
+         <name>Restoration</name>
+         <description>Restores you to full material points.</description>
+         <base-experience skill="magic">95</base-experience>
+         <ethereal-cost>25</ethereal-cost>
+         
+	 <reagent amount="4">Health Essences</reagent>
+         
+         <required skill="magic">21</required>
+         
+	 <sigil>Restore</sigil>
+	 <sigil>Life</sigil>
+         
+      </spell>
+      <spell>
+         <name>Bones to Gold</name>
+         <description>Converts all bones in your inventory to gold coins,
+based on your magic level and a random factor.</description>
+         <base-experience skill="magic">100</base-experience>
+         <base-experience skill="alchemy">50</base-experience>
+         <ethereal-cost>30</ethereal-cost>
+         
+	 <reagent amount="2">Matter Essences</reagent>
+	 <reagent amount="1">Energy Essences</reagent>
+         
+         <required skill="magic">23</required>
+         <required skill="alchemy">20</required>
+         
+	 <sigil>Permanent</sigil>
+	 <sigil>Change</sigil>
+	 <sigil>Matter</sigil>
+         
+      </spell>
+      <spell>
+         <name>Teleport To The Portals Room</name>
+         <description>Teleports you to a room from where you can access
+the majority of the maps.</description>
+         <base-experience skill="magic">105</base-experience>
+         <ethereal-cost>20</ethereal-cost>
+         
+	 <reagent amount="1">Matter Essences</reagent>
+	 <reagent amount="1">Spirit Essences</reagent>
+	 <reagent amount="3">Energy Essences</reagent>
+         
+         <required skill="magic">24</required>
+         
+	 <sigil>Move</sigil>
+	 <sigil>Change</sigil>
+	 <sigil>Global</sigil>
+	 <sigil>Space</sigil>
+         
+      </spell>
+      <spell>
+         <name>Life Drain</name>
+         <description>Inflicts 10 material points of damage
+on the target, and heals you by 10.</description>
+         <base-experience skill="magic">120</base-experience>
+         <ethereal-cost>20</ethereal-cost>
+         
+	 <reagent amount="3">Life Essences</reagent>
+         
+         <required skill="magic">27</required>
+         
+	 <sigil>Move</sigil>
+	 <sigil>Change</sigil>
+	 <sigil>Life</sigil>
+         
+      </spell>
+      <spell>
+         <name>Magic Immunity</name>
+         <description>Makes you immune to negative spells.</description>
+         <base-experience skill="magic">140</base-experience>
+         <ethereal-cost>30</ethereal-cost>
+         
+	 <reagent amount="2">Magic Essences</reagent>
+	 <reagent amount="1">Energy Essences</reagent>
+         
+         <required skill="magic">30</required>
+         
+	 <sigil>Create</sigil>
+	 <sigil>Increase</sigil>
+	 <sigil>Magic</sigil>
+	 <sigil>Protection</sigil>
+         
+      </spell>
+      <spell>
+         <name>Heal Summoned</name>
+         <description>Restores 10 MP to each of your summoned creatures in a
+16x16 square, with the center at your position.</description>
+         <base-experience skill="magic">110</base-experience>
+         <ethereal-cost>25</ethereal-cost>
+         
+	 <reagent amount="2">Spirit Essences</reagent>
+	 <reagent amount="2">Life Essences</reagent>
+	 <reagent amount="2">Health Essences</reagent>
+         
+         <required skill="magic">33</required>
+         
+	 <sigil>Local</sigil>
+	 <sigil>Space</sigil>
+	 <sigil>Health</sigil>
+	 <sigil>Spirit</sigil>
+         
+      </spell>
+      <spell>
+         <name>Smite Summoned</name>
+         <description>Does 10 MP of damage to all summons which
+are not yours in a 16x16 square, around your position.</description>
+         <base-experience skill="magic">120</base-experience>
+         <ethereal-cost>30</ethereal-cost>
+         
+	 <reagent amount="2">Spirit Essences</reagent>
+	 <reagent amount="3">Death Essences</reagent>
+	 <reagent amount="2">Matter Essences</reagent>
+         
+         <required skill="magic">36</required>
+         
+	 <sigil>Local</sigil>
+	 <sigil>Space</sigil>
+	 <sigil>Remove</sigil>
+	 <sigil>Life</sigil>
+         
+      </spell>
+      <spell>
+         <name>Drain Mana</name>
+         <description>Removes a random amount of mana
+from a human adversary, and gives it to you. (No
+cost on humans).It has no affect on monsters/animals.</description>
+         <base-experience skill="magic">200</base-experience>
+         <ethereal-cost>16</ethereal-cost>
+	 <reagent amount="4">Air Essences</reagent>
+         <required skill="magic">40</required>
+	 <sigil>Move</sigil>
+	 <sigil>Change</sigil>
+	 <sigil>Magic</sigil>
+      </spell>
+   </chapter>
+
+<!-- FIXME: Add summoning knowledge -->
+   <chapter>
+      <title>Creatures</title>
+      <section>
+      <title>Animals</title>
+      <creature>
+      <!-- FIXME : 
+           These Animals need better descriptions. -->
+        <name>Brown/White Rabbit</name>
+        <description>These cute little rodents can make a good
+start to your fighting career, as well a making nice brown gloves,
+or white hats.</description>
+        <ethereal-cost>5</ethereal-cost>
+        <ingredient amount="1">Brown Rabbit Fur</ingredient>
+        <ingredient amount="1">Bones</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Life Essence</ingredient>
+      </creature>
+      <creature>
+        <name>Rat</name>
+        <description>These vermin are another low-level
+animal, after you've finished fighting rabbits.</description>
+        <ethereal-cost>7</ethereal-cost>
+        <ingredient amount="1">Rat Tail</ingredient>
+        <ingredient amount="1">Bones</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Life Essence</ingredient>
+      </creature>
+      <creature>
+        <name>Beaver</name>
+        <description>A low-level rodent. Their
+fur is used to make warm hats.</description>
+        <ethereal-cost>9</ethereal-cost>
+        <ingredient amount="1">Beaver Fur</ingredient>
+        <ingredient amount="1">Bones</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Life Essence</ingredient>
+        <required nexus="animal">1</required>
+      </creature>
+      <creature>
+        <name>Deer</name>
+        <description>These beautiful forest creatures
+are usually found in forested areas. They are
+often the first larger animal a newbie will kill.</description>
+        <ethereal-cost>10</ethereal-cost>
+        <ingredient amount="1">Deer Fur</ingredient>
+        <ingredient amount="1">Deer Antler</ingredient>
+        <ingredient amount="2">Bones</ingredient>
+        <ingredient amount="3">Raw Meat</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">1</required>
+      </creature>      
+      <creature>
+        <name>Green Snake</name>
+        <description>The green snakes are often
+found in deserted areas, or ruins. They
+are not poisonous.</description>
+        <ethereal-cost>13</ethereal-cost>
+        <ingredient amount="1">Green Snake Skin</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Life Essence</ingredient>
+        <required nexus="animal">2</required>
+      </creature> 
+      <creature>
+        <name>Red Snake</name>
+        <description>The red snakes are often
+found in deserted areas, or ruins. They
+are poisonous.</description>
+        <ethereal-cost>17</ethereal-cost>
+        <ingredient amount="1">Red Snake Skin</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Life Essence</ingredient>
+        <required nexus="animal">2</required>
+      </creature>
+      <creature>
+        <name>Brown Snake</name>
+        <description>The brown snakes are often
+found in deserted areas, or ruins. They
+are not poisonous.</description>
+        <ethereal-cost>22</ethereal-cost>
+        <ingredient amount="1">Brown Snake Skin</ingredient>
+        <ingredient amount="2">Raw Meat</ingredient>	
+        <ingredient amount="1">Life Essence</ingredient>
+        <required nexus="animal">3</required>
+      </creature>
+      <creature>
+        <name>Fox</name>
+        <description>Foxes are often found
+in forested areas. They are often hunted 
+for their fur.</description>
+        <ethereal-cost>25</ethereal-cost>
+        <ingredient amount="1">Fox Fur</ingredient>
+        <ingredient amount="2">Bones</ingredient>
+        <ingredient amount="2">Raw Meat</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">2</required>
+      </creature>
+      <creature>
+        <name>Boar</name>
+        <description>Boars are found
+in regions where there are plenty of
+fields. They are almost as deadly as
+wolves.</description>
+        <ethereal-cost>28</ethereal-cost>
+        <ingredient amount="3">Bones</ingredient>
+        <ingredient amount="4">Raw Meat</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">3</required>
+      </creature>
+      <creature>
+        <name>Wolf</name>
+        <description>Wolves are most often
+located near mountains, or rocky regions.</description>
+        <ethereal-cost>28</ethereal-cost>
+        <ingredient amount="1">Wolf Fur</ingredient>
+        <ingredient amount="2">Bones</ingredient>
+        <ingredient amount="2">Raw Meat</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">3</required>
+      </creature>
+      <creature>
+        <name>Puma</name>
+        <description>These large cats are most 
+often located near mountains, or rocky regions.</description>
+        <ethereal-cost>45</ethereal-cost>
+        <ingredient amount="1">Puma Fur</ingredient>
+        <ingredient amount="3">Bones</ingredient>
+        <ingredient amount="3">Raw Meat</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">5</required>
+      </creature>
+      <creature>
+        <name>Bear</name>
+        <description>Bears exist in almost every
+map and every terrain in Seridia. They are
+quite fierce when angered, as strong as a
+female orc!</description>
+        <ethereal-cost>45</ethereal-cost>
+        <ingredient amount="1">Bear Fur</ingredient>
+        <ingredient amount="5">Bones</ingredient>
+        <ingredient amount="5">Raw Meat</ingredient>
+        <ingredient amount="3">Life Essence</ingredient>
+        <required nexus="animal">5</required>
+      </creature>
+      </section>
+      <section>
+      <title>Monsters</title>
+      <creature>
+        <name>[Unarmed] Male Goblin</name>
+        <description>Goblins are ugly, smelly scavengers.
+They mostly travel in packs of 5 or 6, but many times they
+could also be seen traveling alone. Varying around
+5 feet or less in height, they have greenish pock
+marked skin, yellowish brown eyes, and wear clothing,
+armor and weapons that they pilfered from dead
+corpses in graves, an unsuspecting traveler, or each
+other. They are usually too stupid to determine if
+fighting you is a good or bad thing for them however.
+The lesser caste is composed of stupider, weaker
+males.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Skeleton</name>
+        <description>The Skeletons are the bones of those who died before
+the Great War. The gods of evil even reanimated their
+bones when all the flesh and blood was gone to use
+against the gods of good. Luckily they did not trap
+their souls...although it is said in legends that
+there are some whose souls are cursed and must follow
+the remainder of their former selves for eternity.</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="10">Bones</ingredient>
+        <ingredient amount="3">Death Essence</ingredient>
+        <ingredient amount="3">Life Essence</ingredient>
+        <required nexus="animal">4</required>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Small Gargoyle</name>
+        <description>When King Vermor mysteriously vanished-most people
+claim he died (yet a corpse remains to be found) -
+his Gargoyles were freed of his control. They now
+wander White Stone in the dark of the night,
+turning into stone statues during the day. Some
+say they are still loyal and wander in search of
+their master, who knows if they will ever find him...</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="2">Fire Essence</ingredient>
+        <ingredient amount="2">Matter Essence</ingredient>
+        <ingredient amount="2">Death Essence</ingredient>
+        <ingredient amount="2">Life Essence</ingredient>
+        <required nexus="animal">4</required>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Medium Gargoyle</name>
+        <description>When King Vermor mysteriously vanished-most people
+claim he died (yet a corpse remains to be found) -
+his Gargoyles were freed of his control. They now
+wander White Stone in the dark of the night,
+turning into stone statues during the day. Some
+say they are still loyal and wander in search of
+their master, who knows if they will ever find him...</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="3">Fire Essence</ingredient>
+        <ingredient amount="3">Matter Essence</ingredient>
+        <ingredient amount="3">Death Essence</ingredient>
+        <ingredient amount="3">Life Essence</ingredient>
+        <required nexus="animal">4</required>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Medium Gargoyle</name>
+        <description>When King Vermor mysteriously vanished-most people
+claim he died (yet a corpse remains to be found) -
+his Gargoyles were freed of his control. They now
+wander White Stone in the dark of the night,
+turning into stone statues during the day. Some
+say they are still loyal and wander in search of
+their master, who knows if they will ever find him...</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="4">Fire Essence</ingredient>
+        <ingredient amount="4">Matter Essence</ingredient>
+        <ingredient amount="4">Death Essence</ingredient>
+        <ingredient amount="4">Life Essence</ingredient>
+        <required nexus="animal">5</required>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Female Goblin</name>
+        <description>Goblins are ugly, smelly scavengers.
+They mostly travel in packs of 5 or 6, but many times they
+could also be seen traveling alone. Varying around
+5 feet or less in height, they have greenish pock
+marked skin, yellowish brown eyes, and wear clothing,
+armor and weapons that they pilfered from dead
+corpses in graves, an unsuspecting traveler, or each
+other. They are usually too stupid to determine if
+fighting you is a good or bad thing for them however.
+The females are more intelligent and stronger than
+most male goblins, though there are some goblins
+with the cunning, and equipment, of humans.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>[Armed] Male Goblin</name>
+        <description>Goblins are ugly, smelly scavengers.
+They mostly travel in packs of 5 or 6, but many times they
+could also be seen traveling alone. Varying around
+5 feet or less in height, they have greenish pock
+marked skin, yellowish brown eyes, and wear clothing,
+armor and weapons that they pilfered from dead
+corpses in graves, an unsuspecting traveler, or each
+other. They are usually too stupid to determine if
+fighting you is a good or bad thing for them however.
+The armed males are the most cunning and strong
+of their pitiful race, and assume a leadership
+position - they are said to be as intelligent
+as most humans, and almost as strong as an orc.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Female Orc</name>
+        <description>Orcs are quite intelligent, making strong
+tactics in battle. They are also very
+fearsome creatures, as they are usually
+bigger in stature than a human, and getting
+wounded only makes them want to fight even
+harder. They also don't fear much for their
+lives, and will have fights to the death.
+Standing at around 6-8 feet tall, they have greenish blue-
+brown skin, and wear their own unique armor and clothing,
+usually finding those from other races to be inferior to
+their own weaponry. The females are the weaker
+of this fearsome race.</description>
+        <hostile/>
+			</creature>
+			<creature>
+        <name>Male Orc</name>
+        <description>Orcs are quite intelligent, making strong
+tactics in battle. They are also very
+fearsome creatures, as they are usually
+bigger in stature than a human, and getting
+wounded only makes them want to fight even
+harder. They also don't fear much for their
+lives, and will have fights to the death.
+Standing at around 6-8 feet tall, they have greenish blue-
+brown skin, and wear their own unique armor and clothing,
+usually finding those from other races to be inferior to
+their own weaponry. The males are the stronger
+of this fearsome race.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Male Troll</name>
+        <description>Trolls are ugly, smelly monsters, 
+possessed of enough rudimentary intelligence
+to create primitive weapons, and use weapons
+from dead travellers. They know little fear, 
+and will kill for a pretty bauble.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Male Ogre</name>
+        <description>Ogres tend to live by themselves, and set their own
+territories usually quite far from other ogres. They
+throw out any other humanoid creature they findliving there and will attack you on sight. They arenot as intelligent as the Orcs, and are very grouchyand lazy. Their skin tones vary from a greenishcolor to a human's peach tone, and they're usually
+a hulking 8 feet tall with a wide girth (due to
+their laziness).
+.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Male Cyclops</name>
+        <description>Cyclops are big strong brutes that will attackanything moving in site when they feel threatened.With their obvious lack of brains, they make up forin strength and size. Not much is known about theirsocieties because no one has gotten close enough, orlasted long enough, to tell the tale.
+.</description>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Fluffy Rabbit</name>
+        <description>"Awww, it's a cute fluffy rabbit!"--The last words of many unwary herosThese should be approached only by the strongest, 
+as they can overmatch even a Cyclops in killing
+prowess. They are the revenge on all of those
+who have killed rabbits to make hats.</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="1">White Rabbit Fur</ingredient>
+        <ingredient amount="1">Bones</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="1">Enriched Life Essence</ingredient>
+        <required nexus="animal">5</required>
+        <hostile/>
+      </creature>
+      <creature>
+        <name>Chimeran Wolf</name>
+        <description>A large, powerful, ugly wolf, lacking any majesty. They are
+reputed to have been created in a magical accident of
+some type. In any case, only the strongest can defeat
+them, as they overmatch by a long shot both the
+Cyclops and the Fluffy Rabbit.</description>
+        <ethereal-cost>37</ethereal-cost>
+        <ingredient amount="1">Wolf Fur</ingredient>
+        <ingredient amount="1">Bones</ingredient>
+        <ingredient amount="1">Raw Meat</ingredient>
+        <ingredient amount="2">Enriched Life Essence</ingredient>
+        <required nexus="animal">5</required>
+        <hostile/>
+      </creature>
+      </section>
+   </chapter>
+
+
+   <chapter>
+      <title>Perks</title>
+      <section>
+        <title>Positive Perks</title>
+          <perk>
+            <name>Power Saving</name>
+	  <description>This perk means your food level won't decrease unless you are
+reading, or a stat [nexus, attribute, cross attribute, etc.]/skill is being 
+restored.</description>
+	  <opposing-perk>Power Hungry</opposing-perk>
+	  <pp-cost>3</pp-cost>
+	  <price>100</price>
+	</perk>
+          <perk>
+            <name>Fast Regeneration</name>
+	  <description>With this perk , mana and health, as well as other stats,
+regenerate 3 times as fast.</description>
+	  <pp-cost>3</pp-cost>
+	  <price>100</price>
+	</perk>
+          <perk>
+            <name>Self Destruction</name>
+	  <description>With this perk , when you die, each opponent fighting you
+gets 5-15 points of damage regardless of armour and defense.</description>
+	  <pp-cost>5</pp-cost>
+	  <price>130</price>
+	</perk>
+          <perk>
+            <name>Excavator</name>
+	  <description>With this perk , you get doubles the quantity of 
+each normal your harvest. (Ie. 2 flowers instead of one per 
+second.)</description>
+	  <pp-cost>5</pp-cost>
+	  <price>150</price>
+	</perk>
+          <perk>
+            <name>Monster Magnetism</name>
+	  <description>With this perk , Monster's won't attack you, unless
+ you attack first.</description>
+	  <pp-cost>5</pp-cost>
+	  <price>150</price>
+	</perk>
+          <perk>
+            <name>Evanescence</name>
+	  <description>Each successful hit you would normally take has
+	  an additional 10% chance to miss.</description>
+	  <pp-cost>5</pp-cost>
+	  <price>200</price>
+	</perk>
+         <perk>
+            <name>Careful Guy</name>
+	  <description>Reduces the chance to lose each tems when you 
+die from the default 50% to 40%.</description>
+	  <pp-cost>5</pp-cost>
+	  <price>250</price>
+	</perk>
+         <perk>
+            <name>Body Piercing</name>
+	  <description>Increases your chance to bypass the opponent's
+armour by 10%.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>150</price>
+	</perk>
+         <perk>
+            <name>Fatal Man</name>
+	  <description>Increase the chance to score a hit regardless of 
+opponent's skills, equipment, etc. by 10%.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>150</price>
+	</perk>
+         <perk>
+            <name>Conjurer</name>
+	  <description>In summoning, you receive half your spent
+	  mana back after a successful summon.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>250</price>
+	</perk>
+         <perk>
+            <name>I Glow in the Dark</name>
+	  <description>Each time you hit your opponent, they take 2 
+	  points of radiation damage.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>250</price>
+	</perk>
+         <perk>
+            <name>There is no Fork</name>
+	  <description>No defense penalty when fighting multiple 
+	  opponents.</description>
+	  <opposing-perk>I Can't Dance</opposing-perk>
+	  <pp-cost>7</pp-cost>
+	  <price>250</price>
+	</perk>
+         <perk>
+            <name>Mirror Skin</name>
+	  <description>There is a 10% chance for each hit you take
+ to be deflected back at your opponent.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>300</price>
+	</perk>
+         <perk>
+            <name>No More Tears</name>
+	  <description>The chance to lose items due to wear or 
+damage while fighting is reduced by 75%.</description>
+	  <pp-cost>7</pp-cost>
+	  <price>1000</price>
+	</perk>
+         <perk>
+            <name>Artificer</name>
+	  <description>You have double the chance to create
+a rare item (enriched essence, moddable weapon, etc.)</description>
+	  <pp-cost>7</pp-cost>
+	  <price>2000</price>
+	</perk>
+      </section>
+      <section>
+        <title>Negative Perks</title>
+         <perk>
+            <name>Power Hungry</name>
+	  <description>3 points of food are used every minute, 
+	  instead of the normal 1 food per minute.</description>
+	  <pp-cost>-3</pp-cost>
+	  <price>0</price>
+	  <opposing-perk>Powersaving</opposing-perk>
+	</perk>
+         <perk>
+            <name>I Can't Dance</name>
+	  <description>You take an additional 15 point defense 
+penalty when fighting multiple opponents.</description>
+	  <pp-cost>-5</pp-cost>
+	  <price>0</price>
+	  <opposing-perk>There is No Fork</opposing-perk>
+	</perk>
+         <perk>
+            <name>Gelatine Bones</name>
+	  <description>Whenever you take ANY type of damage,
+you receive an additional 5 points of damage.</description>
+	  <pp-cost>-6</pp-cost>
+	  <price>0</price>
+	</perk>
+         <perk>
+            <name>Godless</name>
+	  <description>You cannot serve any god (if you chose 
+this after you have done their quests, they will be reset).</description>
+	  <pp-cost>-8</pp-cost>
+	  <price>0</price>
+	</perk>
+         <perk>
+            <name>Hellspawn</name>
+	  <description>Each time you enter/exit a map and/or 
+enter/exit a building, you have a 20% chance to go to the
+underworld.</description>
+	  <pp-cost>-10</pp-cost>
+	  <price>0</price>
+	</perk>
+         <perk>
+            <name>Antisocial</name>
+	  <description>No NPC will sell/buy stuff to/from you. 
+You can still buy sigils from the magic shop, and 
+use the storage.</description>
+	  <pp-cost>-10</pp-cost>
+	  <price>0</price>
+	</perk>
+      </section>	
+   </chapter>
+
+
+   <chapter>
+      <title>Potions</title>
+      <potion>
+          <name>Potion of Mana</name>
+	   <description>This potion restores 5 ethereal points
+when drank. It is the easiest potion to make.</description>
+	   <ingredient amount="1">Empty Vial</ingredient>
+	   <ingredient amount="1">Wine</ingredient>
+	   <ingredient amount="1">Blue Lupine</ingredient>
+	   <base-experience skill="potions">5</base-experience>
+	   <recommended skill="potions">0</recommended>
+	   <food-cost>0</food-cost>
+      </potion>
+      <potion>
+          <name>Potion of Minor Healing</name>
+	   <description>This potion restores 5 matter points
+when drank.</description>
+	   <ingredient amount="1">Empty Vial</ingredient>
+	   <ingredient amount="1">Wine</ingredient>
+	   <ingredient amount="1">Sunflower</ingredient>
+	   <base-experience skill="potions">9</base-experience>
+	   <recommended skill="potions">2</recommended>
+	   <food-cost>0</food-cost>
+      </potion>
+      <potion>
+          <name>Potion of Reasonning</name>
+	   <description>This potion temporarily increases
+the drinker's reasonning by 5 points.</description>
+	   <ingredient amount="1">Empty Vial</ingredient>
+	   <ingredient amount="3">Bone Powders</ingredient>
+	   <ingredient amount="1">Vegetables</ingredient>
+	   <base-experience skill="potions">15</base-experience>
+	   <recommended skill="potions">4</recommended>
+	   <required nexus="vegetal">1</required>
+	   <tool>Mortar and Pestle</tool>
+	   <food-cost>1</food-cost>
+      </potion>
+      <potion>
+          <name>Potion of Physique</name>
+	   <description>This potion temporarily increases
+the drinker's physique by 5 points.</description>
+	   <ingredient amount="1">Empty Vial</ingredient>
+	   <ingredient amount="3">Bone Powders</ingredient>
+	   <ingredient amount="3">Raw Meat</ingredient>
+	   <ingredient amount="1">Mead</ingredient>
+	   <base-experience skill="potions">20</base-experience>
+	   <recommended skill="potions">6</recommended>
+	   <required nexus="vegetal">1</required>
+	   <tool>Mortar and Pestle</tool>
+	   <previous-knowledge>Potion of Physique</previous-knowledge>
+	   <food-cost>2</food-cost>
+      </potion>
+      <potion>
+          <name>Potion of Defense</name>
+	   <description>This potion temporarily increases
+the drinker's defense by 5 points.</description>
+	   <ingredient amount="1">Empty Vial</ingredient>
+	   <ingredient amount="2">Beaver Fur</ingredient>
+	   <ingredient amount="2">Silver Ore</ingredient>
+	   <ingredient amount="4">Swamp Candles</ingredient>
+	   <ingredient amount="1">Bone Powder</ingredient>
+	   <base-experience skill="potions">20</base-experience>
+	   <recommended skill="potions">8</recommended>
+	   <required nexus="vegetal">2</required>
+	   <tool>Mortar and Pestle</tool>
+	   <food-cost>3</food-cost>
+      </potion>
+   </chapter>
+
+
+   <chapter>
+      <title>Weapons &amp; Armor</title>
+   </chapter>
+
+</document>
