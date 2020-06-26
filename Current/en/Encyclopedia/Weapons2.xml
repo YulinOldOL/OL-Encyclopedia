@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Change log
 24-Jun-2018: Changed text from "Manufacturing Experience Given" to "Base Manufacturing Experience"
+26-Jun-2020: Added recipes of Enchanted Titanium Long and Titanium Serpent Swords. Fixed some information about other recipes
 -->
 <EnchantedWeapons>
 <Page name="ISOF">
@@ -286,7 +287,7 @@
    <nl/>
    <text> Required Nexuses: Artificial 5, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: 51</text>
+   <text> Recommended Manufacturing Level: 50</text>
    <nl/>
    <text> Base Manufacturing Experience: 3600</text>
    <nl/>
@@ -410,9 +411,9 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Modable Steel Two Edged Sword, 1 Enriched Fire</text>
+   <text> 1 Modable Steel Two Edged Sword, 1 Enriched Fire Essence,</text>
    <nl/>
-   <text> Essence, 1 Enriched Water Essence, 1 Binding Stone,</text>
+   <text> 1 Enriched Water Essence, 1 Binding Stone,</text>
    <nl/>
    <text> 4 Serpent Stones</text>
    <nl/>
@@ -457,7 +458,7 @@
    <text> Required materials:</text>
    <nl/>
    <text> 1 Modable Titanium Short Sword, 2 Enriched Fire Essences,</text><nl/>
-   <text> 1 Binding Stone, 4 Serpent Stones.</text>
+   <text> 1 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Short Sword of Fire</text>
    <nl/>
@@ -500,7 +501,7 @@
    <text> Required materials:</text>
    <nl/>
    <text> 1 Modable Titanium Short Sword, 2 Enriched Water Essences,</text><nl/>
-   <text> 1 Binding Stone, 4 Serpent Stones.</text>
+   <text> 1 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Short Sword of Ice</text>
    <nl/>
@@ -508,7 +509,7 @@
    <nl/>
    <text> Recommended Manufacturing Level: 67</text>
    <nl/>
-   <text> Base Manufacturing Experience: 4000</text>
+   <text> Base Manufacturing Experience: 4210</text>
    <nl/>
    <text> Food subtracted: 35</text>
    <nl/>
@@ -543,7 +544,7 @@
    <text> Required materials:</text>
    <nl/>
    <text> 1 Modable Titanium Short Sword, 2 Enriched Magic Essences,</text><nl/>
-   <text> 1 Binding Stone, 4 Serpent Stones.</text>
+   <text> 1 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Short Sword of Magic</text>
    <nl/>
@@ -551,7 +552,7 @@
    <nl/>
    <text> Recommended Manufacturing Level: 69</text>
    <nl/>
-   <text> Base Manufacturing Experience: 4200</text>
+   <text> Base Manufacturing Experience: 4457</text>
    <nl/>
    <text> Food subtracted: 35</text>
    <nl/>
@@ -587,7 +588,7 @@
    <nl/>
    <text> 1 Modable Titanium Short Sword, 2 Enriched Fire Essences,</text><nl/>
    <text> 2 Enriched Water Essences, 1 Binding Stone,</text><nl/>
-   <text> 4 Serpent Stones.</text>
+   <text> 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Short Sword of Thermal</text>
    <nl/>
@@ -595,7 +596,7 @@
    <nl/>
    <text> Recommended Manufacturing Level: 70</text>
    <nl/>
-   <text> Base Manufacturing Experience: 4500</text>
+   <text> Base Manufacturing Experience: 5730</text>
    <nl/>
    <text> Food subtracted: 35</text>
    <nl/>
@@ -629,17 +630,18 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Long Sword, 3 Enriched Fire Essences,</text><nl/>
+   <text> 2 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Long Sword of Fire</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 72</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 4842</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
@@ -671,17 +673,18 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Long Sword, 3 Enriched Water Essences,</text><nl/>
+   <text> 2 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Long Sword of Ice</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 73</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 4974</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
@@ -713,17 +716,18 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Long Sword, 3 Enriched Magic Essences,</text><nl/>
+   <text> 2 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Long Sword of Magic</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 74</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 5108</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
@@ -755,17 +759,19 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Long Sword, 3 Enriched Fire Essences,</text><nl/>
+   <text> 3 Enriched Water Essences, 2 Binding Stone,</text><nl/>
+   <text> 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Titanium Long Sword of Thermal</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 75</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 6553</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
@@ -792,26 +798,27 @@
    <nlkx/>
    <text> +10 Fire damage.</text>
    <nlkx/>
-   <text> Required Nexus to use: Human 6</text>
+   <text> Required Nexus to use: Human 4</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Serpent Sword, 4 Enriched Fire</text><nl/>
+   <text> Essences, 3 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Serpent Sword of Fire</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 76</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 5380</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
-   <text> Weight: 2 EMU</text>
+   <text> Weight: 4 EMU</text>
    <nl/><nl/>
    <color>yellow</color>
    <text>               </text><link ref="Ench_Weapons" title="Back To Enchanted Weapons Index"/>
@@ -834,26 +841,27 @@
    <nlkx/>
    <text> +10 Cold damage.</text>
    <nlkx/>
-   <text> Required Nexus to use: Human 6</text>
+   <text> Required Nexus to use: Human 4</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Serpent Sword, 4 Enriched Water</text><nl/>
+   <text> Essences, 3 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Serpent Sword of Ice</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 77</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 5518</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
-   <text> Weight: 2 EMU</text>
+   <text> Weight: 4 EMU</text>
    <nl/><nl/>
    <color>yellow</color>
    <text>               </text><link ref="Ench_Weapons" title="Back To Enchanted Weapons Index"/>
@@ -881,17 +889,18 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Serpent Sword, 4 Enriched Magic</text><nl/>
+   <text> Essences, 3 Binding Stone, 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Serpent Sword of Magic</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 78</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 5660</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
@@ -923,17 +932,19 @@
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> UNKNOWN</text>
+   <text> 1 Modable Titanium Serpent Sword, 4 Enriched Fire Essences,</text><nl/>
+   <text> 4 Enriched Water Essences, 3 Binding Stone,</text><nl/>
+   <text> 4 Serpent Stones</text>
    <nl/>
    <text> Knowledge needed: Book of Serpent Sword of Thermal</text>
    <nl/>
-   <text> Required Nexuses: UNKNOWN</text>
+   <text> Required Nexuses: Artificial 6, Magic 5</text>
    <nl/>
-   <text> Recommended Manufacturing Level: UNKNOWN</text>
+   <text> Recommended Manufacturing Level: 79</text>
    <nl/>
-   <text> Base Manufacturing Experience: UNKNOWN</text>
+   <text> Base Manufacturing Experience: 7253</text>
    <nl/>
-   <text> Food subtracted: UNKNOWN</text>
+   <text> Food subtracted: 35</text>
    <nl/>
    <text> Stackable: No</text>
    <nl/>
