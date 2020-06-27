@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Version last updated on 4-May-2017, release version
-22-Jun-2018 - Updated experience values and to say "Base Alchemy Experience"	
+22-Jun-2018 - Updated experience values and to say "Base Alchemy Experience"
+27-Jun-2020 - Updated use of normal essences	
 -->
 <Alchemy>
 <Page name="Fire Essence">
@@ -25,7 +26,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Sulphur, 1 Red Rose, 1 Red Snapdragon.</text>
+   <text> 1 Sulphur, 1 Red Rose, 1 Red Snapdragon</text>
    <nl/>
    <text> Recommended Alchemy Level: 1</text>
    <nl/>
@@ -53,7 +54,7 @@ Version last updated on 4-May-2017, release version
    <text>                Water Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="1" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Crafting.</text>
+   <text> Used for: Making Axes and Crafting.</text>
    <nlkx/>
    <text> Used for spells: Heat Shield</text>
    <nl/><nl/><nl/>
@@ -62,7 +63,7 @@ Version last updated on 4-May-2017, release version
    <nl/>
    <text> 1 Sapphire, 1 Blue Quartz, 1 Blue Lupine,</text>
    <nl/>
-   <text> 1 Blue Star Flower.</text>
+   <text> 1 Blue Star Flower</text>
    <nl/>
    <text> Recommended Alchemy Level: 2</text>
    <nl/>
@@ -97,7 +98,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Sulphur, 2 Coals, 1 Swamp Candle.</text>
+   <text> 1 Sulphur, 2 Coals, 1 Swamp Candle</text>
    <nl/>
    <text> Recommended Alchemy Level: 4</text>
    <nl/>
@@ -125,14 +126,14 @@ Version last updated on 4-May-2017, release version
    <text>                 Air Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="3" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: making Axes.</text>
+   <text> Used for: Making Axes.</text>
    <nlkx/>
-   <text> Used for spells: Drain Mana, Invisibility</text>
+   <text> Used for spells: Mana Drain, Invisibility</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Silver Ore, 1 Unpolished Diamond, 1 White Asiatic Lily.</text>
+   <text> 1 Silver Ore, 1 Unpolished Diamond, 1 White Asiatic Lily</text>
    <nl/>
    <text> Recommended Alchemy Level: 6</text>
    <nl/>
@@ -170,7 +171,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Mercury, 1 Gold Ore, 1 Silver Ore.</text>
+   <text> 1 Mercury, 1 Gold Ore, 1 Silver Ore</text>
    <nl/>
    <text> Recommended Alchemy Level: 8</text>
    <nl/>
@@ -198,14 +199,14 @@ Version last updated on 4-May-2017, release version
    <text>               Matter Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="5" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for many Spells.</text>
+   <text> Used for many spells.</text>
    <nlkx/>
-   <text> Also used for: Summoning.</text>
+   <text> Also used for: Matter Conglomerate and Summoning.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Iron Ore, 1 Quartz, 1 Rose Quartz, 1 Blue Quartz.</text>
+   <text> 1 Iron Ore, 1 Quartz, 1 Rose Quartz, 1 Blue Quartz</text>
    <nl/>
    <text> Recommended Alchemy Level: 10</text>
    <nl/>
@@ -233,14 +234,14 @@ Version last updated on 4-May-2017, release version
    <text>               Energy Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="6" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Crafting.</text>
-   <nlkx/>
    <text> Used for many spells.</text>
+   <nlkx/>
+   <text> </text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Iron Ore, 1 Silver Ore, 1 Tiger Lily.</text>
+   <text> 1 Iron Ore, 1 Silver Ore, 1 Tiger Lily</text>
    <nl/>
    <text> Recommended Alchemy Level: 12</text>
    <nl/>
@@ -275,7 +276,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Silver Ore, 2 Sunflowers.</text>
+   <text> 1 Silver Ore, 2 Sunflowers</text>
    <nl/>
    <text> Knowledge Needed: Life Essence</text>
    <nl/>
@@ -307,12 +308,12 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for spells: Poison, Harm, Smite Summoned.</text>
    <nlkx/>
-   <text> Also used for: Crafting and Summoning</text>
+   <text> Also used for: Summoning</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Mercury, 1 Quartz, 1 Cactus.</text>
+   <text> 1 Mercury, 1 Quartz, 1 Cactus</text>
    <nl/>
    <text> Knowledge Needed: Death Essence</text>
    <nl/>
@@ -345,13 +346,12 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for spells: Heal, Remote Heal, Harm,</text>
    <nlkx/>
-   <text> Restoration, Heal Summoned.</text>
-   <nlkx/>
-   <nl/><nl/>
+   <text> Restoration, Heal Summoned, Heal Allies.</text>
+   <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 2 Silver Ores, 1 Chrysanthemum.</text>
+   <text> 2 Silver Ores, 1 Chrysanthemum</text>
    <nl/>
    <text> Knowledge Needed: Health Essence</text>
    <nl/>
@@ -381,16 +381,18 @@ Version last updated on 4-May-2017, release version
    <text>                Magic Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="10" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Crafting.</text>
+   <text> Used for: Potion.</text>
    <nlkx/>
    <text> Used for spells: Remote Heal, Magic Protection,</text>
    <nlkx/>
-   <text> Magic Immunity, True Sight, Radiation Shield.</text>
+   <text> Magic Immunity, True Sight, Radiation Shield,</text>
+   <nlkx/>
+   <text> Heal Allies.</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Emerald, 1 Impatiens, 1 Lilac.</text>
+   <text> 1 Emerald, 1 Impatiens, 1 Lilacs</text>
    <nl/>
    <text> Knowledge Needed: Magic Essence</text>
    <nl/>
