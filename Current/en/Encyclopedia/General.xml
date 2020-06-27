@@ -47,6 +47,7 @@ by availability and usefullness.
 02-Jul-2018: Added Heal Allies Spell
 06-July-2018: Removed red text about proteciton potions not having use (cold protection can be used on TML4)
 19-July-2018: Removed Feran and Snow Leopard from creatures list
+27-June-2020: Removed the old email of errors report, and links to Rings of Mana and Massive Mana Destruction in Jewelry
 To do:
 	Mapdescriptions/Lore
 	Add info on rare book drops 
@@ -60,7 +61,7 @@ To do:
    <size>Small</size>
    <color r="0.4" g="0.8" b="1"/>
    <text> IN DEVELOPMENT! Report all errors on the Encyclopedia</text><nl/>
-   <text> Via Forum, or e-mail to techsto@planet.nl</text><nl/>
+   <text> Via Forum.</text><nl/>
    <size>Medium</size><nl/>   <color r="0.9" g="0" b="0.9"/>
    <text> For more functionality, rightclick anywhere in this window </text>><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
@@ -100,7 +101,7 @@ To do:
    <nl/>
    <text> Alchemy is the art of making essences and metal bars. You</text><nl/>
    <text> will use essences to cast magic spells and as ingredients</text><nl/>
-   <text> in some items, and metal bars for manufacturing armour</text><nl/>
+   <text> in some items, and metal bars for manufacturing armors</text><nl/>
    <text> and weapons and for crafting magic rings and medallions.</text><nl/>
    <nl/>
    <size>Medium</size>
@@ -967,12 +968,10 @@ Copied Nexus to the end (two column)
    <nl/>
    <link ref="Ring_Power" title="Ring of Power"/><text>                  </text>
    <text> </text>
-   -->
    <nl/>
    <link ref="Ring_MDestr" title="Ring of Mana Destruction"/><text>       </text>
    <nl/>
    <link ref="Ring_MMDestr" title="Ring of Massive Mana Destruction"/><text>       </text>
-	<!--
    <color r="0" g="0.7" b="1"/><text>Enhanced Armors</text><color r="0.9" g="0.9" b="0.9"/>
    <link ref="En_Iron_Greaves" title="Enhanced Iron Greaves"/>
    <nl/>
