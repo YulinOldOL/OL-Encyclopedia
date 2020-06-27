@@ -47,7 +47,7 @@ by availability and usefullness.
 02-Jul-2018: Added Heal Allies Spell
 06-July-2018: Removed red text about proteciton potions not having use (cold protection can be used on TML4)
 19-July-2018: Removed Feran and Snow Leopard from creatures list
-27-June-2020: Removed the old email of errors report, and links to Rings of Mana and Massive Mana Destruction in Jewelry
+27-June-2020: Removed the old email of errors report, and links to Rings of Mana and Massive Mana Destruction in Jewelry. Reordered list of Enriched Essenses.
 To do:
 	Mapdescriptions/Lore
 	Add info on rare book drops 
@@ -123,11 +123,11 @@ To do:
    <nl/>
    <color r="0.1" g="0.5" b="1"/><text>Enriched Essences</text><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
-   <link ref="Enriched Fire Essence" title="Enriched Fire Essence"/><text>          </text>
-   <link ref="Enriched Death Essence" title="Enriched Death Essence"/><nl/>
-   <link ref="Enriched Water Essence" title="Enriched Water Essence"/><text>         </text>
-   <link ref="Enriched Magic Essence" title="Enriched Magic Essence"/><nl/>
    <link ref="Enriched Life Essence" title="Enriched Life Essence"/><text>          </text>
+   <link ref="Enriched Death Essence" title="Enriched Death Essence"/><nl/>
+   <link ref="Enriched Magic Essence" title="Enriched Magic Essence"/><text>         </text>
+   <link ref="Enriched Water Essence" title="Enriched Water Essence"/><nl/>
+   <link ref="Enriched Fire Essence" title="Enriched Fire Essence"/><text>          </text>
    <nl/>
    <nl/>
    <color r="0.1" g="0.5" b="1"/><text>Metal Bars</text><nl/>

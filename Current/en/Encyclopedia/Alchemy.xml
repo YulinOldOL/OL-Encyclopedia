@@ -2,7 +2,7 @@
 <!--
 Version last updated on 4-May-2017, release version
 22-Jun-2018 - Updated experience values and to say "Base Alchemy Experience"
-27-Jun-2020 - Updated use of normal essences	
+27-Jun-2020 - Updated use of normal and enriched essences
 -->
 <Alchemy>
 <Page name="Fire Essence">
@@ -19,7 +19,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for: Armors, Weapons and Crafting.</text>
    <nlkx/>
-   <text> Used for spells: Cold Shield</text>
+   <text> Used for spells: Cold Shield.</text>
    <nlkx/>
    <text> Also used for: Summoning and making Vials.</text>
    <nl/><nl/>
@@ -56,7 +56,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for: Making Axes and Crafting.</text>
    <nlkx/>
-   <text> Used for spells: Heat Shield</text>
+   <text> Used for spells: Heat Shield.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -128,7 +128,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for: Making Axes.</text>
    <nlkx/>
-   <text> Used for spells: Mana Drain, Invisibility</text>
+   <text> Used for spells: Mana Drain, Invisibility.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -163,7 +163,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for spells: Heal Summoned, Smite Summoned,</text>
    <nlkx/>
-   <text> Teleport (Range/Portals Room), True Sight </text>
+   <text> Teleport (Range/Portals Room), True Sight.</text>
 <!--   <text> Teleport (Range/Portals Room/Intercontinental), </text> -->
    <nlkx/>
    <text>  </text>
@@ -308,7 +308,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for spells: Poison, Harm, Smite Summoned.</text>
    <nlkx/>
-   <text> Also used for: Summoning</text>
+   <text> Also used for: Summoning.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -466,7 +466,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 8 Iron Ores, 5 Coals, 3 Fire Essences.</text>
+   <text> 8 Iron Ores, 5 Coals, 3 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Steel Smelting</text>
    <nl/>
@@ -503,7 +503,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 8 Silver Ores, 3 Coals, 4 Fire Essences.</text>
+   <text> 8 Silver Ores, 3 Coals, 4 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Silver Smelting</text>
    <nl/>
@@ -540,7 +540,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 8 Gold Ores, 3 Coals, 5 Fire Essences.</text>
+   <text> 8 Gold Ores, 3 Coals, 5 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Gold Smelting</text>
    <nl/>
@@ -577,7 +577,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 8 Titanium Ores, 3 Coals, 7 Fire Essences.</text>
+   <text> 8 Titanium Ores, 3 Coals, 7 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Titanium Smelting</text>
    <nl/>
@@ -615,7 +615,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 10 Copper Ores, 10 Coals, 20 Fire Essences.</text>
+   <text> 10 Copper Ores, 10 Coals, 20 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Copper Smelting</text>
    <nl/>
@@ -653,7 +653,7 @@ Version last updated on 4-May-2017, release version
    <text> Required materials:</text>
    <nl/>
    <text> 15 Dvarium Ores, 1 Serpent Stone, 8 Coals,</text><nl/>
-   <text> 30 Fire Essences.</text>
+   <text> 30 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Dvarium Smelting</text>
    <nl/>
@@ -690,7 +690,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 10 Hydrogenium Ores, 4 Coals, 10 Fire Essences.</text>
+   <text> 10 Hydrogenium Ores, 4 Coals, 10 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Hydrogenium Smelting</text>
    <nl/>
@@ -728,7 +728,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 6 Seridium Ores, 10 Coals, 20 Fire Essences.</text>
+   <text> 6 Seridium Ores, 10 Coals, 20 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Seridium Smelting</text>
    <nl/>
@@ -805,7 +805,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 6 Tin Ores, 10 Coals, 20 Fire Essences.</text>
+   <text> 6 Tin Ores, 10 Coals, 20 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Tin Smelting</text>
    <nl/>
@@ -842,7 +842,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 10 Wolframite Ores, 1 Serpent Stone, 30 Fire Essences.</text>
+   <text> 10 Wolframite Ores, 1 Serpent Stone, 30 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Wolframite Smelting</text>
    <nl/>
@@ -879,7 +879,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Copper Bar, 1 Tin Bar, 30 Fire Essences.</text>
+   <text> 1 Copper Bar, 1 Tin Bar, 30 Fire Essences</text>
    <nl/>
    <text> Recommended Alchemy Level: 36</text>
    <nl/>
@@ -910,6 +910,8 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for: Advanced Armors and Weapons.</text>
    <nlkx/>
+   <text> Also used for: Making Vial Mold.</text>
+   <nlkx/>
    <text> This essence can also be made by luck while</text>
    <nlkx/>
    <text> making normal fire essences.</text>
@@ -917,7 +919,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Enrichment Stone, 100 Fire Essences.</text>
+   <text> 1 Enrichment Stone, 100 Fire Essences</text>
    <nl/>
    <text> Recommended Alchemy Level: 56</text>
    <nl/>
@@ -945,7 +947,7 @@ Version last updated on 4-May-2017, release version
    <text>            Enriched Life Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="16" name="textures/items10.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Advanced Crafting and Summoning.</text>
+   <text> Used for: Advanced Crafting.</text>
    <nlkx/>
    <text> This essence can also be made by luck while</text>
    <nlkx/>
@@ -954,7 +956,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Enrichment Stone, 100 Life Essences.</text>
+   <text> 1 Enrichment Stone, 100 Life Essences</text>
    <nl/>
    <text> Recommended Alchemy Level: 48</text>
    <nl/>
@@ -982,7 +984,7 @@ Version last updated on 4-May-2017, release version
    <text>           Enriched Magic Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="9" name="textures/items9.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Advanced Crafting, Summoning and Weapons.</text>
+   <text> Used for: Advanced Crafting and Weapons.</text>
    <nlkx/>
    <text> This essence can also be made by luck while</text>
    <nlkx/>
@@ -991,7 +993,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 1 Enrichment Stone, 100 Magic Essences.</text>
+   <text> 1 Enrichment Stone, 100 Magic Essences</text>
    <nl/>
    <text> Recommended Alchemy Level: 54</text>
    <nl/>
@@ -1019,7 +1021,7 @@ Version last updated on 4-May-2017, release version
    <text>           Enriched Water Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="11" name="textures/items9.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Advanced Summoning and Weapons.</text>
+   <text> Used for: Advanced Weapons.</text>
    <nlkx/>
    <text> This essence can only be made by luck while</text>
    <nlkx/>
@@ -1051,7 +1053,7 @@ Version last updated on 4-May-2017, release version
    <text>           Enriched Death Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="14" name="textures/items17.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Advanced Summoning.</text>
+   <text> This enriched essence has no use.</text>
    <nlkx/>
    <text> This essence can only be made by luck while</text>
    <nlkx/>
