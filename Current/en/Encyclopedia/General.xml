@@ -3,51 +3,58 @@
 <!-- Changelog:
 General Comment: Information is verified and compared with BattleWizards wiki and the Forum
 http://other-life.wikia.com/wiki/Other-Life_Wiki
-7-Mar-2017 Changed Summoning section to reflect available summons. 
+07-Mar-2017 - Changed Summoning section to reflect available summons. 
 Removed references of stones and other unused items from this file. 
 Source of recipe is still available in Summons.xml but commented out.
-7-Mar-2017 Changed Potions section. Only available potions are listed grouped
+07-Mar-2017 - Changed Potions section. Only available potions are listed grouped
 by availability and usefullness.
-7-Mar-2017 Commented out Engineering and Tailoring skills in index page.
-8-Mar-2017 Removed unused Ranging items.
-8-Mar-2017 Changed the names on the rings and removed unused c2 rings from the listing (commented out)
-				   Added MM ring
-8-Mar-2017 Removed Tailoring and Ranging Gods from the list (commented out)
-12-Mar-2017: Changed Attributes section to reflect OL situation
-12-Mar-2017: Fixed Books.
-12-Mar-2017: Removed all higher level armor
-13-Mar-2017: Added store items and Packs in Clothes
-13-Mar-2017: Removed dragons from the creatures list
-13-Mar-2017: removed intercontinental tp from Magic list
-13-Mar-2017: Changed Maplist to include DL maps
-13-Mar-2017: Removed perks from list pending changes to the perks system
-13-Mar-2017: Not tackled Weapons yet, Maps page needs layout fix
-14-Mar-2017: Fixed text color above attribute section
-14-Mar-2017: Fixed map section alignment
-14-Mar-2017: Removed some weapons, removed link to enchanted weapons
-14-Mar-2017: Removed a number of items from Misc list
-27-Mar-2017: Fixed the Map-list, added Thunder Mountain
-28-Mar-2017: Fixed Misc list, added Ti pickax, vial mold image
-30-Mar 2017: Harvestables
-31-Mar-2017: General cleanup of references to tailoring and engineering items
-7-Apr-2017: Added enchanted weapons back but removed special weapons from that page. Added general degrade info for elemental weapons.
-9-Apr_2017: Added degrade info to Weapons and Armor.
-9-Apr-2017: Fixed Pack descriptions (included in Clothes).
-9-May-2017: Added fluffy garg to creatures list
-14-May fixed attribute list
-10-Jun-2017: Added cape of passive camouflage
-10-Jun-2017: Renamed and moved the Crafting to Jewelry (in Index)
-10-Jun-2017: reordered Jewelry page
-10-Jun-2017: removed references to Irrilion
-9-Jul-2017: removed link to Hydrogen bar in Alchemy
-3-Jan-2018: Spelling fixes in the DL Maps section. Changed create guild info (requires a level 65+, not 39+)
+07-Mar-2017 - Commented out Engineering and Tailoring skills in index page.
+08-Mar-2017 - Removed unused Ranging items.
+08-Mar-2017 - Changed the names on the rings and removed unused c2 rings from the listing (commented out)
+Added MM ring
+08-Mar-2017 - Removed Tailoring and Ranging Gods from the list (commented out)
+12-Mar-2017 - Changed Attributes section to reflect OL situation
+12-Mar-2017 - Fixed Books.
+12-Mar-2017 - Removed all higher level armor
+13-Mar-2017 - Added store items and Packs in Clothes
+13-Mar-2017 - Removed dragons from the creatures list
+13-Mar-2017 - Removed intercontinental tp from Magic list
+13-Mar-2017 - Changed Maplist to include DL maps
+13-Mar-2017 - Removed perks from list pending changes to the perks system
+13-Mar-2017 - Not tackled Weapons yet, Maps page needs layout fix
+14-Mar-2017 - Fixed text color above attribute section
+14-Mar-2017 - Fixed map section alignment
+14-Mar-2017 - Removed some weapons, removed link to enchanted weapons
+14-Mar-2017 - Removed a number of items from Misc list
+27-Mar-2017 - Fixed the Map-list, added Thunder Mountain
+28-Mar-2017 - Fixed Misc list, added Ti pickax, vial mold image
+30-Mar 2017 - Harvestables
+31-Mar-2017 - General cleanup of references to tailoring and engineering items
+07-Apr-2017 - Added enchanted weapons back but removed special weapons from that page.
+Added general degrade info for elemental weapons.
+09-Apr_2017 - Added degrade info to Weapons and Armor.
+09-Apr-2017 - Fixed Pack descriptions (included in Clothes).
+09-May-2017 - Added fluffy garg to creatures list
+14-May-2017 - Fixed attribute list
+10-Jun-2017 - Added cape of passive camouflage
+10-Jun-2017 - Renamed and moved the Crafting to Jewelry (in Index)
+10-Jun-2017 - reordered Jewelry page
+10-Jun-2017 - Removed references to Irrilion
+09-Jul-2017 - Removed link to Hydrogen bar in Alchemy
+03-Jan-2018: Spelling fixes in the DL Maps section.
+Changed create guild info (requires a level 65+, not 39+)
 19-Jan-2018: Seridium Ore nexus fixed to 5
-8-Feb-2018: Added #menu command info and updated #guild command info. Edited #gm message requirement from 5 to 15.
-22-Jun-2018: Swapped Small and Tall Garg to be consistent with up/down, left/right increasing levels
+8-Feb-2018: Added #menu command info and updated #guild command info.
+Edited #gm message requirement from 5 to 15.
+22-Jun-2018: Swapped Small and Tall Garg to be consistent with up/down,
+left/right increasing levels
 02-Jul-2018: Added Heal Allies Spell
-06-July-2018: Removed red text about proteciton potions not having use (cold protection can be used on TML4)
-19-July-2018: Removed Feran and Snow Leopard from creatures list
-27-June-2020: Removed the old email of errors report, and links to Rings of Mana and Massive Mana Destruction in Jewelry. Reordered list of Enriched Essenses.
+06-Jul-2018: Removed red text about proteciton potions not having use
+(cold protection can be used on TML4)
+19-Jul-2018: Removed Feran and Snow Leopard from creatures list
+27-Jun-2020: Removed the old email of errors report, and links to
+Rings of Mana and Massive Mana Destruction in Jewelry. Reordered list of Enriched Essenses.
+28-Jun-2020: Reordered list of Tools and Misc Items (alphabetically).
 To do:
 	Mapdescriptions/Lore
 	Add info on rare book drops 
@@ -1186,67 +1193,68 @@ Copied Nexus to the end (two column)
    <text>Tools                          Misc</text>
    <nl/>
    <color r="0.9" g="0.9" b="0.9"/>
-   <link ref="Needle" title="Needle"/><text>                         </text>
+   <link ref="Hammer_Chisel" title="Gemstone Hammer &amp; Chisel"/><text>       </text>
    <link ref="Bones Powder" title="Bones Powder"/>
    <nl/>
    <link ref="Hammer" title="Hammer"/><text>                         </text>
-   <link ref="Thread" title="Thread"/>
-   <nl/>
-   <link ref="Mortar_Pestle" title="Mortar &amp; Pestle"/><text>                </text>
-   <link ref="Leather" title="Leather"/>
-   <nl/>
-   <link ref="N_Pickaxe" title="Pickaxe"/><text>                        </text>
    <link ref="Empty_Vial" title="Empty Vial"/>
    <nl/>
    <link ref="T_LGloves" title="Leather Gloves"/><text>                 </text>
-   <link ref="Wood_Handle" title="Wood Handle"/>
-   <nl/>
-   <link ref="Hammer_Chisel" title="Gemstone Hammer &amp; Chisel"/><text>       </text>
    <link ref="Sand_Paper" title="Gem Sanding Paper"/>
    <nl/>
-   <link ref="Ring_Mold" title="Ring Mold"/><text>                      </text>
-   <!-- <link ref="Loom" title="Loom"/> -->
+   <link ref="Med_Mold" title="Medallion Mold"/><text>                 </text>
+   <link ref="Leather" title="Leather"/>
+   <nl/>
+   <link ref="Mortar_Pestle" title="Mortar &amp; Pestle"/><text>                </text>
+   <link ref="Conglo" title="Matter Conglomerate"/>
+   <nl/>
+   <link ref="Needle" title="Needle"/><text>                         </text>
    <link ref="Mercury" title="Mercury"/>
    <nl/>
-   <link ref="Med_Mold" title="Medallion Mold"/><text>                 </text>
-   <!-- <link ref="Square_Vial" title="Square Vial"/>
+   <link ref="N_Pickaxe" title="Pickaxe"/><text>                        </text>
+   <link ref="Thread" title="Thread"/>
+   <nl/>
+   <link ref="Ring_Mold" title="Ring Mold"/><text>                      </text>
+   <link ref="Wood_Handle" title="Wood Handle"/>
+   <nl/>
+   <link ref="Saw" title="Saw"/><text>                            </text>
+   <nl/>
+   <link ref="T_Pickaxe" title="Titanium Pickaxe"/><text>                        </text>
+   <nl/>
+   <link ref="Vial_Mold" title="Vial Mold"/><text>                      </text>
+   <nl/>   
+   <!-- <link ref="Loom" title="Loom"/>  
+   <link ref="Square_Vial" title="Square Vial"/>
    <nl/>
    <link ref="Bucket" title="Bucket"/><text>                         </text>
    <link ref="Skull_Key" title="Skull Key"/>
    <nl/>
    <link ref="Scissors" title="Scissors"/><text>                       </text>
    <link ref="Skeleton_Key" title="Skeleton Key"/>
-   <nl/> -->
-   <link ref="Saw" title="Saw"/><text>                            </text>
-
    <nl/>
-   <!-- <link ref="Knife" title="Carving Knife"/><text>                  </text>
-      <link ref="Mercury" title="Mercury"/>
-   <nl/> -->
-   <link ref="Vial_Mold" title="Vial Mold"/><text>                      </text>
-   <!-- <link ref="Horse_Whistle" title="Horse Whistle"/>
+   <link ref="Knife" title="Carving Knife"/><text>                  </text>
+   <link ref="Mercury" title="Mercury"/>
+   <nl/>
+   <link ref="Horse_Whistle" title="Horse Whistle"/>
    <nl/>
    <link ref="Alembic" title="Alembic"/><text>                        </text> 
-   <link ref="Bouquet" title="Bouquet of Roses"/> -->
-      <link ref="Conglo" title="Matter Conglomerate"/><nl/>
-         <link ref="T_Pickaxe" title="Titanium Pickaxe"/><text>                        </text>
-   <!-- <link ref="Head_Mold" title="Arrow/Bolt Head Mold"/><text>           </text> -->
-   <text> </text>
+   <link ref="Bouquet" title="Bouquet of Roses"/>
+   <link ref="Head_Mold" title="Arrow/Bolt Head Mold"/><text>           </text> -->
    <nl/>
-   <text>                               </text>
-   <color r="0" g="0.7" b="1"/><text>Food</text><color r="0.9" g="0.9" b="0.9"/>
+   <color r="0" g="0.7" b="1"/>
+   <text>Food                           Drinks</text>
    <nl/>
-   <color r="0" g="0.7" b="1"/><text>Drinks</text><color r="0.9" g="0.9" b="0.9"/><text>                         </text>
-   <link ref="FD_Bread" title="Bread"/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <link ref="FD_Bread" title="Bread"/><text>                          </text>
+   <link ref="FD_Ale" title="Ale"/>
    <nl/>
-   <link ref="FD_Wine" title="Wine"/><text>                           </text>
-   <link ref="FD_Vegetables" title="Vegetables"/>
+   <link ref="FD_Cooked_Meat" title="Cooked Meat"/><text>                    </text>
+   <link ref="FD_Mead" title="Mead"/>
    <nl/>
-   <link ref="FD_Ale" title="Ale"/><text>                            </text>
-   <link ref="FD_Fruit" title="Fruit"/>
+   <link ref="FD_Fruit" title="Fruit"/><text>                          </text>
+   <link ref="FD_Wine" title="Wine"/>
    <nl/>
-   <link ref="FD_Mead" title="Mead"/><text>                           </text>
-   <link ref="FD_Cooked_Meat" title="Cooked Meat"/>
+   <link ref="FD_Vegetables" title="Vegetables"/><text>                      </text>
    <nl/>
    <nl/><nl/>
    <color>yellow</color>

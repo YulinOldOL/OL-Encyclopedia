@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-10-Jun-2017 Corrected spelling error turqoise to turquoise
-16-April-2018 Updated Mortar & Pestle (cannot be manufactured), removed potion of alchemy link from Mercury
-22-June-2018 For any mixable item, changed text to be "Base X Experience" where X is the skill
+10-Jun-2017 - Corrected spelling error turqoise to turquoise
+16-Apr-2018 - Updated Mortar & Pestle (cannot be manufactured), removed potion of alchemy link from Mercury
+22-Jun-2018 - For any mixable item, changed text to be "Base X Experience" where X is the skill
+28-Jun-2020 - Updated information of Bone Powder and Matter Conglomerate
  -->
 <Miscellanea>
 <Page name="Mortar_Pestle">
@@ -518,7 +519,7 @@
    <nl/>
    <text> Items required to have: Mortar &amp; Pestle</text>
    <nl/>
-   <text> Recommended Alchemy Level: 0</text>
+   <text> Recommended Alchemy Level: 1</text>
    <nl/>
    <text> Base Alchemy Experience: 1</text>
    <nl/>
@@ -1074,7 +1075,7 @@
    <text>           Matter Conglomerate</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="5" name="textures/items17.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: mining </text><!-- <link ref="Copper" title="Copper"/><text> and </text> --> <link ref="Seridium" title="Seridium"/><text>.</text><nl/>
+   <text> Used for: Mining </text><!-- <link ref="Copper" title="Copper"/><text> and </text> --> <link ref="Seridium" title="Seridium"/><text>.</text><nl/>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>

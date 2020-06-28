@@ -3,6 +3,7 @@
 Version last updated on 4-May-2017, release version
 22-Jun-2018 - Updated experience values and to say "Base Alchemy Experience"
 27-Jun-2020 - Updated use of normal and enriched essences
+28-Jun-2020 - Updated use of metal bars
 -->
 <Alchemy>
 <Page name="Fire Essence">
@@ -21,7 +22,9 @@ Version last updated on 4-May-2017, release version
    <nlkx/>
    <text> Used for spells: Cold Shield.</text>
    <nlkx/>
-   <text> Also used for: Summoning and making Vials.</text>
+   <text> Also used for: Making Metal Bars and Vials</text>
+   <nlkx/>
+   <text> and Summoning.</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -91,7 +94,7 @@ Version last updated on 4-May-2017, release version
    <text>                Earth Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="2" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Matter Conglomerate.</text>
+   <text> Used for: Making Matter Conglomerate.</text>
    <nlkx/>
    <text> </text>
    <nl/><nl/><nl/>
@@ -199,9 +202,9 @@ Version last updated on 4-May-2017, release version
    <text>               Matter Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="5" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for many spells.</text>
+   <text> Used for: Making Matter Conglomerate and Summoning.</text>   
    <nlkx/>
-   <text> Also used for: Matter Conglomerate and Summoning.</text>
+   <text> Used for many spells.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -306,9 +309,9 @@ Version last updated on 4-May-2017, release version
    <text>                Death Essence</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="8" name="textures/items3.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for spells: Poison, Harm, Smite Summoned.</text>
+   <text> Used for: Summoning.</text>
    <nlkx/>
-   <text> Also used for: Summoning.</text>
+   <text> Used for spells: Poison, Harm, Smite Summoned.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -429,7 +432,7 @@ Version last updated on 4-May-2017, release version
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
    <nl/>
-   <text> 7 Iron Ores, 3 Coals, 2 Fire Essences.</text>
+   <text> 7 Iron Ores, 3 Coals, 2 Fire Essences</text>
    <nl/>
    <text> Knowledge Needed: Iron Smelting</text>
    <nl/>
@@ -496,7 +499,7 @@ Version last updated on 4-May-2017, release version
    <text>                 Silver bar</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="15" name="textures/items5.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Crafting.</text>
+   <text> Used for: Crafting and Potion.</text>
    <nlkx/>
    <text> </text>
    <nl/><nl/><nl/>
@@ -572,7 +575,7 @@ Version last updated on 4-May-2017, release version
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Used for: Armors and Weapons.</text>
    <nlkx/>
-   <text> </text>
+   <text> Also used for: Making Vial Mold and Potion.</text>
    <nl/><nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Required materials:</text>
@@ -721,7 +724,7 @@ Version last updated on 4-May-2017, release version
    <text>                Seridium bar</text><nl/><nl/>
    <simage isize="256" tsize="50" size="100" tid="11" name="textures/items12.bmp" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Used for: Crafting.</text>
+   <text> Used for: Advanced Crafting.</text>
    <nlkx/>
    <text> </text>
    <nl/><nl/><nl/>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Jewelry>
 <!--
-8-Mar-2017 		Added MM ring 
-19-Mar-2017 	Checked all recipes and changed info on c2 rings to Alroth rings 
-1-May-2017 		Changed damage of RoD to 15 |(from 20)
-10-Jun-2017 	Minor fixes
-24-Mar-2018 	Updated Moon and Stars Medallion effects
-22-June-2018	Updated some exp values, changed text to say "Base Crafting Experience"
-19-Jul-2018		Medallion of Life nexus is 5 (not 4)
+08-Mar-2017 - Added MM ring 
+19-Mar-2017 - Checked all recipes and changed info on c2 rings to Alroth rings 
+01-May-2017 - Changed damage of RoD to 15 |(from 20)
+10-Jun-2017 - Minor fixes
+24-Mar-2018 - Updated Moon and Stars Medallion effects
+22-Jun-2018 - Updated some exp values, changed text to say "Base Crafting Experience"
+19-Jul-2018 - Medallion of Life nexus is 5 (not 4)
+28-Jun-2020 - Removed Rings of Mana and Massive Mana Destruction from the listing (commented out)
 -->
 <Page name="Ring_Gold">
    <size>Small</size><color>yellow</color>
@@ -1398,6 +1399,7 @@
    <color>yellow</color>
    <text>                    </text><link ref="Jewelry" title="Back To Crafting Index"/>
 </Page>
+<!--
 <Page name="Ring_MDestr">
    <size>Small</size><color>yellow</color>
    <link x="2" y="2" ref="Jewelry" title="Back"/>
@@ -1482,6 +1484,7 @@
    <color>yellow</color>
    <text>                    </text><link ref="Jewelry" title="Back To Crafting Index"/>
 </Page>
+-->
 <Page name="Med_Unicorn">
    <size>Small</size><color>yellow</color>
    <link x="2" y="2" ref="Jewelry" title="Back"/>
