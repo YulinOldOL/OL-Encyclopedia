@@ -49,12 +49,15 @@ Edited #gm message requirement from 5 to 15.
 22-Jun-2018: Swapped Small and Tall Garg to be consistent with up/down,
 left/right increasing levels
 02-Jul-2018: Added Heal Allies Spell
-06-Jul-2018: Removed red text about proteciton potions not having use
+06-Jul-2018: Removed red text about protection potions not having use
 (cold protection can be used on TML4)
 19-Jul-2018: Removed Feran and Snow Leopard from creatures list
 27-Jun-2020: Removed the old email of errors report, and links to
 Rings of Mana and Massive Mana Destruction in Jewelry. Reordered list of Enriched Essenses.
 28-Jun-2020: Reordered list of Tools and Misc Items (alphabetically).
+13-07-2020: Reordered list of DL Maps (alphabetically).
+Added some DL Maps left: Areadan Plains (AP), Droellan Wood (DW) and Valunde Forest (VF)
+Added Human Lands (HL) Maps
 To do:
 	Mapdescriptions/Lore
 	Add info on rare book drops 
@@ -1062,7 +1065,7 @@ Copied Nexus to the end (two column)
 <Page name="Maps">
    <size>Small</size><color>yellow</color>
    <link x="2" y="2" ref="Index" title="Back"/>
-   <text x="2" y="18">Page 1/2</text>
+   <text x="2" y="18">Page 1/3</text>
    <link x="437" y="2" ref="Index" title="Index"/>
    <link x="450" y="18" ref="Maps_DL" title=">>>"/>
    <size>Big</size><color r="1" g="0.6" b="0"/>
@@ -1116,12 +1119,12 @@ Copied Nexus to the end (two column)
    <text>                             </text><link ref="Maps_DL" title="Alroth Maps >>>"/>
    <nl/>
 </Page>
-<Page name="Maps_DL"><!-- changed C2 to DL -->
+<Page name="Maps_DL">
    <size>Small</size><color>yellow</color>
    <link x="2" y="2" ref="Index" title="Back"/>
-   <text x="2" y="18">Page 2/2</text>
+   <text x="2" y="18">Page 2/3</text>
    <link x="437" y="2" ref="Index" title="Index"/>
-   <link x="450" y="18" ref="Maps" title=">>>"/>
+   <link x="450" y="18" ref="Maps_HL" title=">>>"/>
    <size>Big</size><color r="1" g="0.6" b="0"/>
    <text x="74" y="2">The Other Life Encyclopedia</text>
    <nl/>
@@ -1138,34 +1141,93 @@ Copied Nexus to the end (two column)
    <color r="0" g="0.7" b="1"/>
    <text>Name (Shortname)                Storage     MC     PK</text><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
-   <link ref="Maps2_RI" title="Raven's Isle"/><text> (RI)               </text>
-   <text>   -        Y      -</text><nl/>
-   <link ref="Maps2_LD" title="Lothend"/><text> (LD)                    </text>
-   <text>   Y        N      -</text><nl/>
    <link ref="Maps2_AD" title="Aldath"/><text> (AD)                     </text>
    <text>   -        Y      -</text><nl/>
    <link ref="Maps2_AE" title="Alkh-Endune"/><text> (AE)                </text>
    <text>   Y        Y      -</text><nl/>
-   <link ref="Maps2_TH" title="Thalendale"/><text> (TH)                 </text>
+   <link ref="Maps2_AP" title="Areadan Plains"/><text> (AP)             </text>
    <text>   -        Y      -</text><nl/>
    <link ref="Maps2_BG" title="Braigor"/><text> (BG)                    </text>
    <text>   -        Y      -</text><nl/>
-   <link ref="Maps2_ZM" title="Zerimor"/><text> (ZM)                    </text>
-   <text>   -        Y      -</text><nl/>
-   <link ref="Maps2_MG" title="Morog"/><text> (MG)                      </text>
-   <text>   -        Y      -</text><nl/>
    <link ref="Maps2_DB" title="Drakensbane"/><text> (DB)                </text>
    <text>   Y        Y      -</text><nl/>
-   <link ref="Maps2_RL" title="Rhoelind"/><text> (RL)                   </text>
+   <link ref="Maps2_DW" title="Droellan Wood"/><text> (DW)              </text>
    <text>   -        Y      -</text><nl/>
-   <color r="1" g="0.2" b="0.2"/><link ref="Maps2_VL" title="Valunde"/><color r="0.9" g="0.9" b="0.9"/><text>  (VL)                   </text>
-   <text>   -        Y      Y</text><nl/>
    <link ref="Maps2_GL" title="Glingor"/><text> (GL)                    </text>
    <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_LD" title="Lothend"/><text> (LD)                    </text>
+   <text>   Y        N      -</text><nl/>
+   <link ref="Maps2_MG" title="Morog"/><text> (MG)                      </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_RI" title="Raven's Isle"/><text> (RI)               </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_RL" title="Rhoelind"/><text> (RL)                   </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_TH" title="Thalendale"/><text> (TH)                 </text>
+   <text>   -        Y      -</text><nl/>
    <link ref="Maps2_TM" title="Thunder Mountain"/><text> (TM)           </text>
-   <text>   -        Y      -</text><nl/> 
+   <text>   Y        Y      -</text><nl/>
+   <color r="1" g="0.2" b="0.2"/><link ref="Maps2_VL" title="Valunde"/><color r="0.9" g="0.9" b="0.9"/><text>  (VL)                   </text>
+   <text>   -        Y      Y</text><nl/>
+   <link ref="Maps2_VF" title="Valunde Forest"/><text> (VF)             </text>
+   <text>   -        Y      -</text><nl/>   
+   <link ref="Maps2_ZM" title="Zerimor"/><text> (ZM)                    </text>
+   <text>   -        Y      -</text><nl/>
    <link ref="Maps2_DC" title="Dwarven Caves"/><text> (DC)              </text>
    <text>   -        Y      -</text><nl/> <nl/>
+   <nl/>
+   <nl/><nl/>
+   <color>yellow</color>
+   <text> </text><link ref="Index" title="Back To Index"/>
+   <text>                           </text><link ref="Maps_HL" title="Alroth Maps >>>"/>
+   <nl/>
+</Page>
+<Page name="Maps_HL">
+   <size>Small</size><color>yellow</color>
+   <link x="2" y="2" ref="Index" title="Back"/>
+   <text x="2" y="18">Page 3/3</text>
+   <link x="437" y="2" ref="Index" title="Index"/>
+   <link x="450" y="18" ref="Maps" title=">>>"/>
+   <size>Big</size><color r="1" g="0.6" b="0"/>
+   <text x="74" y="2">The Other Life Encyclopedia</text>
+   <nl/>
+   <text>                    MAPS</text><nl/>
+   <size>Small</size>
+   <color r="0.5" g="0.9" b="1"/>
+   <nl/>
+   <text> Here you will find info about Maps. Click the names for</text><nl/>
+   <text> more info. PK=Player Killing, MC=Multi Combat.</text><nl/>
+   <nl/>
+   <size>Big</size><color r="1" g="1" b="1"/>
+   <text> Maps of Alroth: Human Lands</text><nl/><nl/>
+   <size>Small</size>
+   <color r="0" g="0.7" b="1"/>
+   <text>Name (Shortname)                Storage     MC     PK</text><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
+   <link ref="Maps2_BH" title="Briahan"/><text> (BH)                    </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_DK" title="Draekor"/><text> (DK)                    </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_FC" title="Flying Citadel"/><text> (FC)             </text>
+   <text>   -        N      -</text><nl/>
+   <link ref="Maps2_GY" title="Glywen"/><text> (GY)                     </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_JR" title="Jerieth"/><text> (JR)                    </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_KA" title="Koredia"/><text> (KA)                    </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_MV" title="Meaveth"/><text> (MV)                    </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_MD" title="Meidus"/><text> (MD)                     </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_RN" title="Rhiven"/><text> (RN)                     </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_TB" title="Tebard"/><text> (TB)                     </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_TA" title="Thalia"/><text> (TA)                     </text>
+   <text>   -        Y      -</text><nl/>
+   <link ref="Maps2_VR" title="Velinnor"/><text> (VR)                   </text>
+   <text>   -        Y      -</text><nl/>
    <nl/>
    <nl/><nl/>
    <color>yellow</color>
