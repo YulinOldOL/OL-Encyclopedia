@@ -58,6 +58,7 @@ Rings of Mana and Massive Mana Destruction in Jewelry. Reordered list of Enriche
 13-07-2020: Reordered list of DL Maps (alphabetically).
 Added some DL Maps left: Areadan Plains (AP), Droellan Wood (DW) and Valunde Forest (VF)
 Added Human Lands (HL) Maps
+28-Jul-2020: Updated some DL Maps information
 To do:
 	Mapdescriptions/Lore
 	Add info on rare book drops 
@@ -1167,15 +1168,14 @@ Copied Nexus to the end (two column)
    <text>   -        Y      -</text><nl/>
    <link ref="Maps2_TM" title="Thunder Mountain"/><text> (TM)           </text>
    <text>   Y        Y      -</text><nl/>
-   <color r="1" g="0.2" b="0.2"/><link ref="Maps2_VL" title="Valunde"/><color r="0.9" g="0.9" b="0.9"/><text>  (VL)                   </text>
+   <color r="1" g="0.2" b="0.2"/><link ref="Maps2_VL" title="Valunde"/><color r="0.9" g="0.9" b="0.9"/><text> (VL)                    </text>
    <text>   -        Y      Y</text><nl/>
    <link ref="Maps2_VF" title="Valunde Forest"/><text> (VF)             </text>
-   <text>   -        Y      -</text><nl/>   
+   <text>   -        N      -</text><nl/>   
    <link ref="Maps2_ZM" title="Zerimor"/><text> (ZM)                    </text>
    <text>   -        Y      -</text><nl/>
-   <link ref="Maps2_DC" title="Dwarven Caves"/><text> (DC)              </text>
-   <text>   -        Y      -</text><nl/> <nl/>
-   <nl/>
+   <!-- <link ref="Maps2_DC" title="Dwarven Caves"/><text> (DC)              </text>
+   <text>   -        Y      -</text><nl/> -->
    <nl/><nl/>
    <color>yellow</color>
    <text> </text><link ref="Index" title="Back To Index"/>

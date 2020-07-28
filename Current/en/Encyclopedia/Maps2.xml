@@ -5,6 +5,7 @@
 13-07-2020: Reordered list of DL Maps (alphabetically).
 Added some DL Maps left: Areadan Plains (AP), Droellan Wood (DW) and Valunde Forest (VF)
 Added Human Lands (HL) Maps
+28-Jul-2020: Updated some DL Maps information (connections, storage and MC)
 -->
 <Maps2>
 <!-- Dwarven Lands (DL) Maps -->
@@ -30,10 +31,10 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Elves make their homes on this map.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Alkh-Endune (N)</text><nlkx/>
-   <text>Lothend (E)</text><nlkx/>
+   <text> Connected maps: </text><text>Alkh-Endune (NE)</text><nlkx/>
+   <text>Lothend (E/SE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -50,8 +51,9 @@ Added Human Lands (HL) Maps
    <text>             Alkh-Endune (AE)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Alkh-Endune is an area in the North-West of the </text><nlkx/>
-   <text> dwarven lands. </text><nlkx/>    <nl/><nl/>
+   <text> Alkh-Endune is an area in the North-West of the</text><nlkx/>
+   <text> Dwarven Lands.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: Yes</text><nlkx/>
    <nl/>
@@ -59,11 +61,10 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Aldath (S)</text><nlkx/>
-   <text>Thunder Mountain (SE)</text><nlkx/>
-   <text>Thalendal (E)</text><nlkx/>
+   <text>Thalendale (NE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -80,8 +81,9 @@ Added Human Lands (HL) Maps
    <text>             Areadan Plains (AP)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Areadan Plains ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Areadan Plains</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -89,11 +91,11 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Droellan Wood (N)</text><nlkx/>
+   <text>Thalia (E)</text><nlkx/>
+   <text>Valunde Forest (boat, W/SW) </text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -110,19 +112,21 @@ Added Human Lands (HL) Maps
    <text>                 Braigor (BG)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Braigor lies south of the Thunder Mountains.</text><nlkx/>       <nl/>
-   <color r="0.9" g="0.9" b="0.9"/><nl/><nl/>
+   <text> Braigor lies south of the Thunder Mountain.</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
+   <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Lothend (W)</text><nlkx/>
-   <text>Thunder Mountains (N)</text><nlkx/>
-   <text>Morog (E)</text><nlkx/>
+   <text> Connected maps: </text><text>Lothend (W/SW)</text><nlkx/>
+   <text>Morog (E/NE/SE)</text><nlkx/>
+   <text>Thunder Mountain (N)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -139,7 +143,9 @@ Added Human Lands (HL) Maps
    <text>              Drakensbane (DB)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Drakensbane ...</text><nlkx/>    <nl/><nl/><nl/>
+   <text> Drakensbane is a dangerous place where orcs roam</text><nlkx/>
+   <text> freely.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: Yes</text><nlkx/>
    <nl/>
@@ -149,11 +155,11 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Races: Part of the Dwarven Lands.</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Zerimor (W)</text><nlkx/>
-   <text>Thunder Mountain (SW)</text><nlkx/>
-   <text>Morog (S)</text><nlkx/>
-   <text>Rhoelind (E)</text><nlkx/>
+   <text> Connected maps: </text><text>Morog (S/SW)</text><nlkx/>
+   <text>Rhoelind (E/NE/SE)</text><nlkx/>
+   <text>Thunder Mountain (W)</text><nlkx/>
    <text>Valunde (NE)</text><nlkx/>
+   <text>Zerimor (NW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -170,8 +176,9 @@ Added Human Lands (HL) Maps
    <text>             Droellan Wood (DW)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Droellan Wood ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Droellan Wood </text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -179,11 +186,12 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Areadan Plains (S)</text><nlkx/>
+   <text>Celiweth (NW)</text><nlkx/>
+   <text>Coennor (NE)</text><nlkx/>
+   <text>Jerieth (E)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -201,8 +209,9 @@ Added Human Lands (HL) Maps
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Glingor has a harbor town but not a lot of other</text><nlkx/>
-   <text> dwellings. To the north it connects to Valunde via</text><nlkx/>
-   <text> a cave.</text><nlkx/>    <nl/><nl/>
+   <text> dwellings. To the north it connects to Valunde</text><nlkx/>
+   <text> via a cave.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -210,12 +219,15 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Dwarvern dwellings are found on this map.</text><nlkx/>
+   <text> Races: Dwarvern dwellings are found on this map</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Valunde (cave, North)</text><nlkx/>
-   <text>Rhoelind (boat, West)</text><nlkx/>
-   <text>Lothend (boat)</text><nlkx/>
-   <text>Raven's Isle (boat)</text><nlkx/>
+   <text> Connected maps: </text><text>Flying Citadel (boat, SW)</text><nlkx/>
+   <text>Koredia (S)</text><nlkx/>
+   <text>Lothend (boat, SW)</text><nlkx/>
+   <text>Meaveth (E)</text><nlkx/>
+   <text>Raven's Isle (boat, SW)</text><nlkx/>
+   <text>Rhoelind (boat, NW)</text><nlkx/>
+   <text>Valunde (cave, N)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -232,13 +244,12 @@ Added Human Lands (HL) Maps
    <text>               Lothend (LD)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Lothend is the entrance to the Dwarven Lands, </text><nlkx/>
-   <text> with connections to Whitestone and Glingor by </text><nlkx/>
-   <text> boat and land connections to Thalendale (N), </text><nlkx/>
-   <text> Braigor (E) and Aldath (W). In the north is </text><nl/>
-   <text> a goldmine.</text><nl/>
-   <nl/>
-   <nl/>
+   <text> Lothend is the entrance to the Dwarven Lands,</text><nlkx/>
+   <text> with connections to Glingor, Roth's Haven and</text><nlkx/>
+   <text> Whitestone by boat and land connections to</text><nlkx/>
+   <text> Aldath, Braigor and Thalendale. In the north</text><nlkx/>
+   <text> there is a silvermine.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: Yes</text><nlkx/>
    <nl/>
@@ -248,11 +259,12 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Races: Part of the Dwarven Lands.</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Whitestone (boat)</text><nlkx/>
-   <text>Glingor (boat)</text><nlkx/>
-   <text>Thalendale</text><nlkx/>
-   <text>Braigor</text><nlkx/>
-   <text>Aldath</text><nlkx/>
+   <text> Connected maps: </text><text>Aldath (W/NW)</text><nlkx/>
+   <text>Braigor (E)</text><nlkx/>
+   <text>Glingor (boat, C)</text><nlkx/>
+   <text>Roth's Haven (boat, C)</text><nlkx/>
+   <text>Thalendale (N)</text><nlkx/>
+   <text>Whitestone (boat, C)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -269,8 +281,9 @@ Added Human Lands (HL) Maps
    <text>                 Morog (MG)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Morog is connected to Seridia via a portal.</text><nlkx/>
-   <nl/><nl/><nl/><nl/>
+   <text> Morog is connected to Seridia via the Portal Room.</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -278,10 +291,10 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races:  </text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Braigor (W)</text><nlkx/>
-   <text>Drakensbane (N)</text><nlkx/>
+   <text> Connected maps: </text><text>Braigor (W/NW/SW)</text><nlkx/>
+   <text>Drakensbane (N/NW)</text><nlkx/>
    <text>Rhoelind (NE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
@@ -299,19 +312,19 @@ Added Human Lands (HL) Maps
   <text>             Raven's Isle (RI)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl04.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Raven's Isle is a large island, </text><nlkx/>
-   <text> reachable from Glingor by boat.</text><nlkx/>
-   <text> </text><nlkx/> 
+   <text> Raven's Isle is a large island, reachable from</text><nlkx/>
+   <text> Glingor by boat.</text><nlkx/>
+   <nl/><nl/>   
    <color r="0.9" g="0.9" b="0.9"/>
-   <nl/><nl/><text> Storage: No</text><nlkx/>
+   <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Glingor (boat)</text><nlkx/>
+   <text> Connected maps: </text><text>Glingor (boat, W)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -328,9 +341,9 @@ Added Human Lands (HL) Maps
    <text>                  Rhoelind</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Rhoelind is an area in the east of the dwarven land</text><nlkx/>
-   <text> with several caves.</text><nlkx/>
-   <nl/><nl/><nl/>
+   <text> Rhoelind is an area in the east of the Dwarven</text><nlkx/>
+   <text> Lands with several caves.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -340,10 +353,9 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Races: Part of the Dwarven Lands.</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Glingor (boat)</text><nlkx/>
-   <text>Drakensbane</text><nlkx/>
-   <text>Morog</text><nlkx/>
-   <text>Valunde (cave)</text><nlkx/>
+   <text> Connected maps: </text><text>Drakensbane (W/NW)</text><nlkx/>
+   <text>Glingor (boat, NE)</text><nlkx/>
+   <text>Morog (SW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -360,7 +372,7 @@ Added Human Lands (HL) Maps
    <text>                Thalendale (TH)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Thalendale is a grassy map with a small settlement </text><nlkx/>
+   <text> Thalendale is a grassy map with a small settlement</text><nlkx/>
    <text> in the south.</text><nlkx/>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
@@ -370,10 +382,11 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Lothend (S)</text><nlkx/>
-   <text>Alkh-Endune (W) </text><nlkx/>
+   <text> Connected maps: </text><text>Alkh-Endune (NW)</text><nlkx/>
+   <text>Lothend (S)</text><nlkx/>
+   <text>Thunder Mountain (SE)</text><nlkx/>   
    <text>Zerimor (E)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
@@ -391,19 +404,18 @@ Added Human Lands (HL) Maps
    <text>           Thunder Mountain (TM)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Thunder Mountain consists of a large complex</text><nlkx/>
-   <text> with three levels of interconnected caves. </text><nlkx/>
-   <text> Navigation is tricky and parts can contain </text><nlkx/>
-   <text> dangerous creatures.</text><nl/>
-   <nl/>
+   <text> Thunder Mountain consists of a large complex with</text><nlkx/>
+   <text> three levels of interconnected caves. Navigation</text><nlkx/>
+   <text> is tricky and parts can contain dangerous creatures.</text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
-   <text> Storage: No</text><nlkx/>
+   <text> Storage: Yes</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Zerimor (N)</text><nlkx/>
    <text>Drakensbane (E)</text><nlkx/>
@@ -426,9 +438,9 @@ Added Human Lands (HL) Maps
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Valunde is a U shaped coastal area in the North-</text><nlkx/>
-   <text> East of Alroth. Around the area warriors test </text><nlkx/>
-   <text> their strength and fight each other. </text><nlkx/> 
-   <text> A boat connect the northern and southern shores.</text><nl/>
+   <text> East of Alroth. Around the area warriors test</text><nlkx/>
+   <text> their strength and fight each other. A boat</text><nlkx/> 
+   <text> connect the northern and southern shores.</text>
    <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
@@ -437,10 +449,11 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Dwarven dwellings are found on this map.</text><nlkx/>
+   <text> Races: Dwarven dwellings are found on this map</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Drakensbane (SW)</text><nlkx/>
-   <text>Glingor (cave)</text><nlkx/>
+   <text>Glingor (cave, S)</text><nlkx/>
+   <text>Valunde Forest (NE/SE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -457,20 +470,22 @@ Added Human Lands (HL) Maps
    <text>             Valunde Forest (VF)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Valunde Forest ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Valunde Forest</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: Yes</text><nlkx/>
+   <text> Multi-combat: No</text><nlkx/>
    <nl/>
    <text> Races: Part of the Dwarven Lands.</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Areadan Plains (boat, NE)</text><nlkx/>
+   <text>Glywen (SE) </text><nlkx/>   
+   <text>Meaveth (boat, S) </text><nlkx/>
+   <text>Valunde (W/SW) </text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
@@ -487,8 +502,9 @@ Added Human Lands (HL) Maps
    <text>    	          Zerimor (ZM)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Zerimor lies north of the Thunder Mountains.</text><nlkx/>
-   <nl/><nl/><nl/>
+   <text> Zerimor lies north of the Thunder Mountain.</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -498,13 +514,14 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Races: Part of the Dwarven Lands.</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text>Thalendale (W)</text><nlkx/>
+   <text> Connected maps: </text><text>Drakensbane (E)</text><nlkx/>
+   <text>Thalendale (W)</text><nlkx/>
    <text>Thunder Mountain (S)</text><nlkx/>
-   <text>Drakensbane (E)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
 </Page>
+<!--
 <Page name="Maps2_DC">
    <size>Small</size><color>yellow</color>
    <link x="2" y="2" ref="Maps_DL" title="Back"/>
@@ -515,8 +532,7 @@ Added Human Lands (HL) Maps
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
    <text>             Dwarven Caves (DC)</text><nl/><nl/>
-   <text> </text><!-- <ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/> -->
-   <!-- No Icon? -->
+   <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banners6.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> The Dwarven Caves consists of several sections, some</text><nlkx/>
    <text> filled with creatures.</text><nlkx/>
@@ -538,6 +554,7 @@ Added Human Lands (HL) Maps
    <color>yellow</color>
    <text>                       </text><link ref="Maps_DL" title="Back To Maps Index"/>
 </Page>
+-->
 <!-- Human Lands (HL) Maps -->
 <Page name="Maps2_BH">
    <size>Small</size><color>yellow</color>
