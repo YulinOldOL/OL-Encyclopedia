@@ -6,6 +6,8 @@
 Added some DL Maps left: Areadan Plains (AP), Droellan Wood (DW) and Valunde Forest (VF)
 Added Human Lands (HL) Maps
 28-Jul-2020: Updated some DL Maps information (connections, storage and MC)
+29-Jul-2020: Updated HL Maps information (connections, storage and MC).
+Added short descriptions of RL and FC.
 -->
 <Maps2>
 <!-- Dwarven Lands (DL) Maps -->
@@ -48,7 +50,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>             Alkh-Endune (AE)</text><nl/><nl/>
+   <text>              Alkh-Endune (AE)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Alkh-Endune is an area in the North-West of the</text><nlkx/>
@@ -109,7 +111,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>                 Braigor (BG)</text><nl/><nl/>
+   <text>                Braigor (BG)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="2" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Braigor lies south of the Thunder Mountain.</text><nlkx/>
@@ -149,11 +151,11 @@ Added Human Lands (HL) Maps
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: Yes</text><nlkx/>
    <nl/>
-   <text> PK: No.</text><nlkx/>
+   <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Morog (S/SW)</text><nlkx/>
    <text>Rhoelind (E/NE/SE)</text><nlkx/>
@@ -205,7 +207,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>                   Glingor</text><nl/><nl/>
+   <text>                Glingor (GL)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Glingor has a harbor town but not a lot of other</text><nlkx/>
@@ -215,7 +217,7 @@ Added Human Lands (HL) Maps
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
-   <text> PK: No.</text><nlkx/>
+   <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
@@ -241,7 +243,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>               Lothend (LD)</text><nl/><nl/>
+   <text>                Lothend (LD)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Lothend is the entrance to the Dwarven Lands,</text><nlkx/>
@@ -257,7 +259,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: No</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven </text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Aldath (W/NW)</text><nlkx/>
    <text>Braigor (E)</text><nlkx/>
@@ -309,7 +311,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-  <text>             Raven's Isle (RI)</text><nl/><nl/>
+  <text>               Raven's Isle (RI)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl04.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Raven's Isle is a large island, reachable from</text><nlkx/>
@@ -338,20 +340,25 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>                  Rhoelind</text><nl/><nl/>
+   <text>                Rhoelind (RL)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="1" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Rhoelind is an area in the east of the Dwarven</text><nlkx/>
-   <text> Lands with several caves.</text><nlkx/>
-   <nl/><nl/>
+   <text> Rhoelind has suffered a great deal in the past,</text><nlkx/>
+   <text> and the effects still remain. There is very little</text><nlkx/>
+   <text> fertile soil here, due to a meteor crash during</text><nlkx/>
+   <text> Skyfall, which poisoned most of the land. Despite</text><nl/>
+   <text> the harsh conditions, a small settlement of people still</text><nl/>
+   <text> live here and the Dwarven alchemists and gardeners are</text><nl/>
+   <text> attempting to find ways to help the land revive faster.</text><nl/>
+   <nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
-   <text> PK: No.</text><nlkx/>
+   <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Drakensbane (W/NW)</text><nlkx/>
    <text>Glingor (boat, NE)</text><nlkx/>
@@ -369,7 +376,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>                Thalendale (TH)</text><nl/><nl/>
+   <text>               Thalendale (TH)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl03.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Thalendale is a grassy map with a small settlement</text><nlkx/>
@@ -401,7 +408,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color r="1" g="1" b="1"/>
-   <text>           Thunder Mountain (TM)</text><nl/><nl/>
+   <text>            Thunder Mountain (TM)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banner_dl02.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Thunder Mountain consists of a large complex with</text><nlkx/>
@@ -434,7 +441,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text>                    MAPS</text><nl/>
    <color>red</color>
-   <text>                 Valunde (VL)</text><nl/><nl/>
+   <text>                Valunde (VL)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="3" name="3dobjects/banner_dl01.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
    <text> Valunde is a U shaped coastal area in the North-</text><nlkx/>
@@ -480,7 +487,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: No</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Areadan Plains (boat, NE)</text><nlkx/>
    <text>Glywen (SE) </text><nlkx/>   
@@ -512,7 +519,7 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Dwarven Lands.</text><nlkx/>
+   <text> Races: Part of the Dwarven Lands</text><nlkx/>
    <nl/>
    <text> Connected maps: </text><text>Drakensbane (E)</text><nlkx/>
    <text>Thalendale (W)</text><nlkx/>
@@ -541,7 +548,7 @@ Added Human Lands (HL) Maps
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
-   <text> PK: No.</text><nlkx/>
+   <text> PK: No</text><nlkx/>
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
@@ -568,8 +575,9 @@ Added Human Lands (HL) Maps
    <text>                Briahan (BH)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Briahan ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Briahan</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -577,11 +585,10 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Draekor (W)</text><nlkx/>
+   <text>Flying Citadel (SE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -598,8 +605,9 @@ Added Human Lands (HL) Maps
    <text>                Draekor (DK)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Draekor ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Draekor</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -607,11 +615,11 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Briahan (E)</text><nlkx/>
+   <text>Koredia (W)</text><nlkx/>
+   <text>Meaveth (NW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -628,8 +636,13 @@ Added Human Lands (HL) Maps
    <text>             Flying Citadel (FC)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Flying Citadel ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> According to the locals Flying Citadel was built</text><nlkx/>
+   <text> on top of ruins of an ancient elven city. The buil-</text><nlkx/>
+   <text> ders were engineers and scientists, and it is said</text><nlkx/>
+   <text> the city can actually fly. But the original buil-</text><nl/>
+   <text> ders have hidden the control station - and it has not yet</text><nl/>
+   <text> been discovered.</text><nl/>
+   <nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
@@ -637,11 +650,15 @@ Added Human Lands (HL) Maps
    <nl/>
    <text> Multi-combat: No</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Airedith (boat, C)</text><nlkx/>
+   <text>Briahan (W)</text><nlkx/>
+   <text>Ethorend (boat, C)</text><nlkx/>
+   <text>Glingor (boat, C)</text><nlkx/>
+   <text>Glywen (boat, NW)</text><nlkx/>
+   <text>Jerieth (boat, NW)</text><nlkx/>
+   <text>Parewyn (boat, C)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -658,20 +675,22 @@ Added Human Lands (HL) Maps
    <text>                 Glywen (GY)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Glywen ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Glywen</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Flying Citadel (boat, S)  </text><nlkx/>
+   <text>Thalia (N)</text><nlkx/>
+   <text>Valunde Forest (NW)</text><nlkx/>
+   <text>Velinnor (NE/SE)</text><nlkx/>   
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -688,20 +707,24 @@ Added Human Lands (HL) Maps
    <text>                Jerieth (JR)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Jerieth ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Jerieth</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Coennor (N)</text><nlkx/>
+   <text>Droellan Wood (W)</text><nlkx/>
+   <text>Flying Citadel (boat, E)</text><nlkx/>
+   <text>Thalia (S)</text><nlkx/>
+   <text>Thirat (boat, E)</text><nlkx/>
+   <text>Thomak (NE)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -718,20 +741,20 @@ Added Human Lands (HL) Maps
    <text>                Koredia (KA)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Koredia ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Koredia</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Draekor (E)</text><nlkx/>
+   <text>Glingor (N)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -748,20 +771,21 @@ Added Human Lands (HL) Maps
    <text>                Meaveth (MV)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Meaveth ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Meaveth</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Draekor (S)</text><nlkx/>
+   <text>Glingor (SW)</text><nlkx/>
+   <text>Valunde Forest (boat, NW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -778,20 +802,19 @@ Added Human Lands (HL) Maps
    <text>                 Meidus (MD)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Meidus ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Meidus</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Tebard (N/W)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -808,20 +831,20 @@ Added Human Lands (HL) Maps
    <text>                 Rhiven (RN)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Rhiven ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Rhiven</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Tebard (S)</text><nlkx/>
+   <text>Thalia (W/SW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -838,20 +861,21 @@ Added Human Lands (HL) Maps
    <text>                 Tebard (TB)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Tebard ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Tebard</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Meidus (E/SE)</text><nlkx/>
+   <text>Rhiven (NW)</text><nlkx/>
+   <text>Velinnor (W)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -868,20 +892,23 @@ Added Human Lands (HL) Maps
    <text>                 Thalia (TA)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Thalia ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Thalia</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Areadan Plains (W)</text><nlkx/>
+   <text>Glywen (SW)</text><nlkx/>
+   <text>Jerieth (N)</text><nlkx/>
+   <text>Rhiven (E)</text><nlkx/>
+   <text>Velinnor (S)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>
@@ -898,20 +925,21 @@ Added Human Lands (HL) Maps
    <text>                Velinnor (VR)</text><nl/><nl/>
    <text> </text><ddsimage isize="256" tsize="128" size="40" tid="0" name="3dobjects/banners1.dds" yposupdate="0" xposupdate="1"/>
    <size>Medium</size><color r="0.5" g="0.9" b="1"/>
-   <text> Velinnor ... </text><nlkx/>
-   <text> ... </text><nlkx/>    <nl/><nl/>
+   <text> Velinnor</text><nlkx/>
+   <text> </text><nlkx/>
+   <nl/><nl/>
    <color r="0.9" g="0.9" b="0.9"/>
    <text> Storage: No</text><nlkx/>
    <nl/>
    <text> PK: No</text><nlkx/>
    <nl/>
-   <text> Multi-combat: No</text><nlkx/>
+   <text> Multi-combat: Yes</text><nlkx/>
    <nl/>
-   <text> Races: Part of the Human Lands.</text><nlkx/>
+   <text> Races: Part of the Human Lands</text><nlkx/>
    <nl/>
-   <text> Connected maps: </text><text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
-   <text> ... </text><nlkx/>
+   <text> Connected maps: </text><text>Glywen (NW/SW)</text><nlkx/>
+   <text>Tebard (NE)</text><nlkx/>
+   <text>Thalia (NW)</text><nlkx/>
    <nl/><nl/>
    <color>yellow</color>
    <text>                       </text><link ref="Maps_HL" title="Back To Maps Index"/>

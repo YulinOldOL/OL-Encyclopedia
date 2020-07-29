@@ -1113,7 +1113,6 @@ Copied Nexus to the end (two column)
    <text>   -        Y      Y</text><nl/>
    <link ref="Maps_Tirnym" title="Ruins of Tirnym"/><text> (RoT)           </text>
    <text>   -        Y      -</text><nl/>
-   <nl/>
    <nl/><nl/>
    <color>yellow</color>
    <text> </text><link ref="Index" title="Back To Index"/>
@@ -1228,7 +1227,6 @@ Copied Nexus to the end (two column)
    <text>   -        Y      -</text><nl/>
    <link ref="Maps2_VR" title="Velinnor"/><text> (VR)                   </text>
    <text>   -        Y      -</text><nl/>
-   <nl/>
    <nl/><nl/>
    <color>yellow</color>
    <text> </text><link ref="Index" title="Back To Index"/>
